@@ -12,11 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-TicketsJO-c70415f1-e24f-4490-8fc0-dc781d07d185")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("AspNetCore-TicketsJO-c70415f1-e24f-4490-8fc0-dc781d07d185")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketsJO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+708e172e8247e60a01fa84114bc6110666e2ddc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71913b8328cf8aa2ac756f057748ede0299e4428")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicketsJO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicketsJO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

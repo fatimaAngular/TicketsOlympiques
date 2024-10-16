@@ -10,7 +10,7 @@ namespace TicketsJO.Models
         public string? Telephone { get; set; }
         public DateTime DateNaissance { get; set; }
         public DateTime Inscription { get; set; }
-        public List<Event>? JoinedEvents { get; set; }
         public List<Event>? CreatdEvents { get; set; }
+        public List<Commande>? ListeCommandes { get; set; }
     }
 }

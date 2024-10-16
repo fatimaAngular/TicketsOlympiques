@@ -4,8 +4,8 @@
     {
         public int Id { get; set; }
         public DateTime DatePai { get; set; }
-        public decimal Montant { get; set; }
-        public Commande IDCommand { get; set; }
-        public ModeDePaiement ModeDePaiement { get; set; }
+        public double Montant { get; set; }
+        public Commande Command { get; set; }
+        public ModeDePaiement ModeDePaie { get; set; }
     }
 }
