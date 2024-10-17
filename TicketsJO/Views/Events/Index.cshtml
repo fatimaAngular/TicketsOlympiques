@@ -1,0 +1,137 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@model IEnumerable<TicketsJO.ViewModels.EventViewModel>
+
+@inject IEnumerable<TicketsJO.Models.Discipline> ListeDisciplines
+
+@{
+    ViewData["Title"] = "Evenements";
+}
+
+
+<div class="mb-3">
+    <div class="p-8 text-center bg-body-tertiary" style="background-image: url('images/Paris2024.png'); background-size: contain; background-position: top; height: 300px; width: 100%">
+        <div class="container pt-10">
+            <h1> Tickets d'accés aux Jeux Olympiques Paris 2024</h1>
+
+            @if (!SignInManager.IsSignedIn(User))
+            {
+                <a class="btn btn-danger rounded-pill px-3 fw-bold" asp-area="Identity" asp-page="/Account/Login">Connexion</a>
+            }
+        </div>
+    </div>
+</div>
+
+
+@if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle me-2"></i>Créer un évènement
+        </a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateEvent)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AdresseEvent)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DisciplineName)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                        @(item.DateEvent.HasValue ? item.DateEvent.Value.ToString("dd MMM yyyy, HH:mm") : "Date non spécifiée")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdresseEvent)
+                </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DisciplineName)
+                    </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Modifier</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+                    <a class="btn btn-primery" asp-action="Details" asp-route-id="@item.Id">Billet</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>
+}
+
+<!-- Filtre de recherche -->
+<div class="text-center">
+<button id="toggleSearch" class="btn olympic-btn fw-bold text-uppercase py-2 px-4 rounded-pill shadow-sm">Vous recherchez un évènement ?</button>
+</div>
+
+<div id="searchForm" style="display: none;">
+    <div class="card my-4">
+        <div class="card-body">
+            <form asp-action="Index" method="get">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label for="Discipline" class="form-label">Disciplines</label>
+
+                        <select id="Discipline" name="Discipline"  class="form-select">
+                            @foreach (var Descipline in ListeDisciplines)
+                            {
+                                <option value="@Descipline.ID"> @Descipline.Name </option>
+                            }
+                            <option value="">Toutes les disciplines</option>
+                        </select>   
+
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="site" class="form-label">Lieu</label>
+                        <select id="site" name="site" asp-items="Html.GetEnumSelectList<Lieu>()" class="form-select">
+                            <option value="">Tous les lieux</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="date" class="form-label">Date</label>
+                        <input id="date" name="date" type="date" class="form-control" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@foreach (var item in Model) {
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h2 class="display-4 fw-bold lh-1 text-body-emphasis">@Html.DisplayFor(modelItem => item.Name)</h2>
+                <p class="lead fw-bolder fs-3">@Html.DisplayFor(modelItem => item.Description)</p>
+                <p class="lead fw-bold">@(item.DateEvent.HasValue ? item.DateEvent.Value.ToString("dd MMM yyyy, HH:mm") : "Date non spécifiée")</p>
+                <p class="lead">@Html.DisplayFor(modelItem => item.AdresseEvent)</p>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+                <a class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" asp-action="Details" asp-route-id="@item.Id">Réserver</a>
+        </div>
+    </div>
+</div>
+}

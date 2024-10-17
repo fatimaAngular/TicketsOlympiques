@@ -1,0 +1,79 @@
+﻿@model IEnumerable<TicketsJO.Models.Offre>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<style>
+    .backNav {
+        display: none;
+    }
+
+    .titreNav {
+        display: none;
+    }
+</style>
+
+<section class="offre">
+
+    <h2>Offres</h2>
+
+    <p>
+        <a href="@Url.Action("Create")" class="lien">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0" />
+            </svg>
+            Ajouter
+        </a>
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TypeOffre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NBPersonnes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prix)
+            </th>
+            <th>
+                Option
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td data-label="Photo" class="imgAdmin">
+                    <img class="imgOffre"  src="~/Content/Formule/@item.Photo" />
+                </td>
+                <td data-label="TypeOffre">
+                    @Html.DisplayFor(modelItem => item.TypeOffre)
+                </td>
+                <td data-label="Description">
+                    @Html.DisplayFor(model => item.Description)
+                </td>
+                <td data-label="NB/Pers">
+                    @Html.DisplayFor(modelItem => item.NBPersonnes)
+                </td>
+                <td data-label="Prix">
+                    @Html.DisplayFor(modelItem => item.Prix)
+                </td>
+                <td data-label="Option">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.OffreID }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.OffreID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.OffreID })
+                </td>
+            </tr>
+        }
+
+    </table>
+</section>

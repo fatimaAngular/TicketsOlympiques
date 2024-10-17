@@ -1,8 +1,136 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Accueil Jeux Olympique 2024";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/AspNetCore/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="mb-3">
+    <div class="p-8 text-center bg-body-tertiary" style="background-image: url('images/ParisLogo.png'); background-size: contain; background-position: top; height: 300px; width: 100%">
+        <div class="container pt-10">
+            <h1> Bienvenue aux Jeux Olympiques Paris 2024</h1>
+        </div>
+    </div>
 </div>
+
+
+
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h2 class="container pt-12 text-danger">Liste des événements actuels</h2>
+    <p class="fs-5 text-body-secondary text-dark"> Plusieurs offres sont disponibles !</p>
+</div>
+
+
+                        <div class="row mb-2">
+                        <div class="row-md-4">
+                                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                    <div class="col p-4 d-flex flex-column position-static">
+                <h3 class="mb-0">Athelétisme </h3>
+
+                <p class="card-text mb-auto">
+                    <br />Les disciplines incluent les courses de sprint comme le 100 m et le 200 m, les courses de haies, les épreuves de fond comme le marathon, et 
+                    les épreuves de marche (20 km et 35 km pour les femmes, 20 km pour les hommes). En saut, on retrouvera des compétitions de saut en hauteur, saut à la perche, 
+                    saut en longueur et triple saut. Du côté des lancers, les athlètes s'affronteront dans des épreuves de lancer de poids, disque, marteau et javelot​
+
+                </p>
+
+                                        <div class="mb-1 text-body-secondary">Août 2024</div>
+                                        <p class="card-text mb-auto">Paris Vincienne </p>
+                                    </div>
+                                    <div class="col-auto d-none d-lg-block">
+                                        <img src="images/CourseFemme.png" width="100%" height="300" />
+                                    </div>
+                                </div>
+
+                                  <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+                                        <a class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" asp-controller="Events" asp-action="Index" >Découvrir les offres</a>
+                                    </div>
+
+                            </div>
+
+
+                <div class="row mb-2">
+                         <div class="row-md-4">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0"> Bascketbal  </h3>
+
+                    <p class="card-text mb-auto">
+                        <br /> Les États-Unis, la France, et la Serbie sont parmi les favoris pour le tournoi masculin, alors que l’équipe féminine américaine, victorieuse à Tokyo, 
+                               cherchera à défendre son titre. Les autres équipes en compétition incluent le Canada, l’Australie et le Japon
+
+                        <br />
+                        <br />
+
+                              Un match à ne pas manquer Etats-Unis contre la Serbie
+                    </p>
+
+                                <div class="mb-1 text-body-secondary"> juillet 2024</div>
+                    <p class="card-text mb-auto">Stade Pierre Mauroy</p>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img src="images/Basketball.png" width="120%" height="300" />
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+                            <a class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" asp-controller="Events" asp-action="Index" >Découvrir les offres</a>
+                        </div>
+
+                    </div>
+
+
+                     <div class="row mb-2">
+                      <div class="row-md-4">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">                           
+                            <h3 class="mb-0">Tennis de table </h3>
+                        <p class="card-text mb-auto">
+                            <br /> La Chine reste la favorite, avec des athlètes comme Fan Zhendong et Sun Yingsha qui visent des médailles, mais les frères français Alexis et Félix 
+                            Lebrun, ainsi que Simon Gauzy et Prithika Pavade, sont prêts à représenter la France et pourraient surprendre. Cette équipe française espère briser 
+                            la disette de médailles qui dure depuis 24 ans dans ce sport aux Jeux Olympiques​
+                            <br />
+                            <br />
+
+                           Veuillez réserver rapidement, les places sont limitées
+                        </p>
+                            <div class="mb-1 text-body-secondary"> août 2024</div>
+                            <p class="card-text mb-auto">Paris </p>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                        <img src="images/TennisdeTable.png" width="120%" height="300" />
+                        </div>
+                    </div>
+
+                      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+                            <a class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" asp-controller="Events" asp-action="Index" >Découvrir les offres</a>
+                        </div>
+
+                </div>
+
+                        <div class="row mb-2">
+                               <div class="row-md-4">
+                                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                    <div class="col p-4 d-flex flex-column position-static">
+                                        <h3 class="mb-0">Rugby </h3>
+                            <p class="card-text mb-auto">
+                                <br /> Lors des Jeux Olympiques de Paris 2024, le rugby à sept (rugby sevens) sera à nouveau à l’honneur avec des tournois masculins et féminins. Ce sport,
+                                dynamique et rapide, est une variante du rugby traditionnel, opposant deux équipes de sept joueurs pour des matchs courts, mais intenses, de seulement 14 minutes.
+                                Cette compétition aura lieu au Stade de France à partir du 24 juillet pour les hommes et se terminera le 30 juillet avec les finales des femmes.
+
+                                <br />
+                                <br />
+
+                                des matchs à ne pas manquer Veney vite
+                            </p>
+                                        <div class="mb-1 text-body-secondary"> juillet 2024</div>
+                                        <p class="card-text mb-auto">Paris Vincienne </p>
+                                    </div>
+                                    <div class="col-auto d-none d-lg-block">
+                                        <img src="images/RugbyFemme.png" width="120%" height="300" />
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+                                    <a class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" asp-controller="Events" asp-action="Index" >Découvrir les offres</a>
+                                </div>
+
+                            </div>
+

@@ -22,12 +22,80 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Disciplines/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Disciplines/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Disciplines/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Disciplines/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Disciplines/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Events/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Events/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Events/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Events/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Offres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Offres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmcmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Offres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Offres/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmcmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Offres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Offres/OffresClientView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmcmVzXE9mZnJlc0NsaWVudFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Offres/Statistique.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmcmVzXFN0YXRpc3RpcXVlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Shared/Error.cshtml]
@@ -40,6 +108,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/StatutEvents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHV0RXZlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/StatutEvents/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHV0RXZlbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/StatutEvents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHV0RXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/StatutEvents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHV0RXZlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/StatutEvents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHV0RXZlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Fatima/Desktop/Examen_DepotFinal/GestionTicketsJO/TicketsOlympiques/TicketsJO/Views/_ViewImports.cshtml]

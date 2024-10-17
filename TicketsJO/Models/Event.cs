@@ -1,5 +1,21 @@
-﻿namespace TicketsJO.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace TicketsJO.Models
 {
+
+    public enum Lieu
+    {
+        [Display(Name = "Paris - Parc des Princes")]
+        ParcDesPrinces,
+        [Display(Name = "Paris - Stade Rolland Garros")]
+        StadeRollandGarros,
+        [Display(Name = "Saint-Denis - Athlétisme Stade de France")]
+        AthetismeStadeDeFrance,
+        [Display(Name = "Strasbourg - Gymnase Rhénus")]
+        GymnaseRhénus,
+        [Display(Name = "Angers - Centre Aquatique Olympique")]
+        CentreAquatiqueOlympique,
+    }
     public class Event
     {
         public int Id { get; set; }
@@ -12,6 +28,7 @@
         public string AdresseEvent { get; set; }
         public StatutEvent StatutEvent { get; set; }     
         public List<Ticket> Tickets { get; set; }
+        public ICollection<Offre>? Offers { get; set; }
 
     }
 }

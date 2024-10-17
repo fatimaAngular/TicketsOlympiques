@@ -1,0 +1,43 @@
+﻿@model IEnumerable<TicketsJO.Models.StatutEvent>
+
+@{
+    ViewData["Title"] = "Statut évenement";
+}
+
+<div class="text-center text-primery">
+    <h1 class="display-6">Jeux Olympiques 2024</h1>
+</div>
+
+
+<div class="text-start display8 text-danger">
+    <h4 class="display-6">Liste des statut événement</h4>
+</div>
+
+<p> 
+    <a class="btn btn-secondary" asp-action="Create" >Ajouter</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Modifier</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Billet</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

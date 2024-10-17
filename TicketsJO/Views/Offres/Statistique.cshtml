@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Statistique";
+}
+
+<h2>Statistique</h2>
+@{
+    var NbAchatParOffre = ViewData["NbOffreAchete"] as Dictionary<string, int>;
+}
+<table class="table">
+    <tr>
+        <th>
+            Type d'offre
+        </th>
+        <th>
+            Quantité
+        </th>
+    </tr>
+
+    @foreach (var item in NbAchatParOffre)
+    {
+        <tr>
+            <td>
+                @item.Key
+            </td>
+            <td>
+                @item.Value
+            </td>
+        </tr>
+    }
+</table>
+

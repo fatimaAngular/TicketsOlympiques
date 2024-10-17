@@ -371,6 +371,9 @@ namespace TicketsJO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("EventId")
+                        .HasColumnType("int");
+
                     b.Property<int>("NBPersonnes")
                         .HasColumnType("int");
 
@@ -387,6 +390,8 @@ namespace TicketsJO.Data.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.HasKey("OffreID");
+
+                    b.HasIndex("EventId");
 
                     b.ToTable("Offre");
                 });
@@ -676,6 +681,13 @@ namespace TicketsJO.Data.Migrations
                     b.Navigation("StatutEvent");
                 });
 
+            modelBuilder.Entity("TicketsJO.Models.Offre", b =>
+                {
+                    b.HasOne("TicketsJO.Models.Event", null)
+                        .WithMany("Offers")
+                        .HasForeignKey("EventId");
+                });
+
             modelBuilder.Entity("TicketsJO.Models.Paiement", b =>
                 {
                     b.HasOne("TicketsJO.Models.Commande", "Command")
@@ -738,6 +750,8 @@ namespace TicketsJO.Data.Migrations
 
             modelBuilder.Entity("TicketsJO.Models.Event", b =>
                 {
+                    b.Navigation("Offers");
+
                     b.Navigation("Tickets");
                 });
 

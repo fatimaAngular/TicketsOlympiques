@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using TicketsJO.ConfigurationMapping;
+
 //using MySql.Data.MySqlClient;
 //using MySqlX.XDevAPI;
 using TicketsJO.Data;
@@ -34,7 +36,7 @@ namespace TicketsJO
                  .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
-
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
 
             var app = builder.Build();
 

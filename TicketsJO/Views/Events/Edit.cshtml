@@ -1,0 +1,48 @@
+﻿@model TicketsJO.Models.Event
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Modifier un évènement sportif</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Discipline" class="control-label"></label>
+                <input asp-for="Discipline" class="form-control" />
+                <span asp-validation-for="Discipline" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateEvent" class="control-label"></label>
+                <input asp-for="DateEvent" class="form-control" />
+                <span asp-validation-for="DateEvent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AdresseEvent" class="control-label"></label>
+                <input asp-for="AdresseEvent" class="form-control" />
+                <span asp-validation-for="AdresseEvent" class="text-danger"></span>
+            </div> 
+            <div class="form-group pt-3">
+                <input type="submit" value="Valider les modifications" class="btn btn-warning" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-action="Index">Retour au menu</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
