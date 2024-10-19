@@ -23,12 +23,11 @@ namespace TicketsJO.Models
         public string? Description { get; set; }
         public DateTime? DateEvent { get; set; }
         public int? Capacite{ get; set; }
-        public Discipline Discipline { get; set; }
+        public Discipline? Discipline { get; set; }
         public User? Creator { get; set; }
-        public string AdresseEvent { get; set; }
-        public StatutEvent StatutEvent { get; set; }     
-        public List<Ticket> Tickets { get; set; }
-        public ICollection<Offre>? Offers { get; set; }
+        public string? AdresseEvent { get; set; }
+        public StatutEvent? StatutEvent { get; set; }    
+        public ICollection<Offre>? Offres { get; set; }
 
     }
 }

@@ -21,8 +21,16 @@
       "PackagePath": "staticwebassets\\images\\CourseFemme.PNG"
     },
     {
+      "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\Event.png",
+      "PackagePath": "staticwebassets\\images\\Event.png"
+    },
+    {
       "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\JeuxParis.png",
       "PackagePath": "staticwebassets\\images\\JeuxParis.png"
+    },
+    {
+      "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\Offre.png",
+      "PackagePath": "staticwebassets\\images\\Offre.png"
     },
     {
       "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\Paris2024.png",
@@ -51,6 +59,10 @@
     {
       "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\logo2024.png",
       "PackagePath": "staticwebassets\\images\\logo2024.png"
+    },
+    {
+      "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\offrespeciale.png",
+      "PackagePath": "staticwebassets\\images\\offrespeciale.png"
     },
     {
       "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\stade_olympique.png",

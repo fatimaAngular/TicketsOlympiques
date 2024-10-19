@@ -1,87 +1,57 @@
 ﻿@model TicketsJO.Models.Offre
 
 @{
-    ViewBag.Title = "Creat";
+    ViewData["Title"] = "Ajout Offre";
 }
 
-<style>
-    .backNav {
-        display: none;
-    }
+<h1>Ajouter une offre</h1>
 
-    .titreNav {
-        display: none;
-    }
-</style>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Titre" class="control-label"></label>
+                <input asp-for="Titre" class="form-control" />
+                <span asp-validation-for="Titre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Place" class="control-label"></label>
+                <input asp-for="Place" class="form-control" />
+                <span asp-validation-for="Place" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prix" class="control-label"></label>
+                <input asp-for="Prix" class="form-control" />
+                <span asp-validation-for="Prix" class="text-danger"></span>
+            </div>
 
-<section class="creatOffre">
-    <h2>Créer</h2>
+ 
+            <div class="form-group">
+                <label asp-for="EventId" class="control-label">Événement </label>
+                <select asp-for="EventId" class="form-control" asp-items="ViewBag.EventId"></select>
+                <span asp-validation-for="EventId" class="text-danger"></span>
+            </div>
 
-    @using (Html.BeginForm("Create", "Offres", FormMethod.Post, new { enctype = "multipart/form-data" }))
-    {
-        @Html.AntiForgeryToken()
-
-<div class="form-horizontal">
-    <h4>Offre</h4>
-    <hr />
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.Photo, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.TextBox("file", "", new { type = "file" }) <br />
-            @ViewBag.ErrorMessage
-        </div>
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.TypeOffre, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.EditorFor(model => model.TypeOffre, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.TypeOffre, "", new { @class = "text-danger" })
-        </div>
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control"} })
-            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
-        </div>
-    </div>
-
-    <div class="form-group">
-    @Html.LabelFor(model => model.NBPersonnes, htmlAttributes: new { @class = "control-label col-md-2" })
-    <div class="col-md-10">
-        @Html.EditorFor(model => model.NBPersonnes, new { htmlAttributes = new { @class = "form-control", type = "number", min = "0" } })
-        @Html.ValidationMessageFor(model => model.NBPersonnes, "", new { @class = "text-danger" })
+            <div class="form-group pt-3">
+                <input type="submit" value="Ajouter une Offre" class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" />
+            </div>
+        </form>
     </div>
 </div>
 
-            <div class="form-group">
-                @Html.LabelFor(model => model.Prix, htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.Prix, new { htmlAttributes = new { @class = "form-control", type = "number", min = "0", step = "0.01" } })
-                    @Html.ValidationMessageFor(model => model.Prix, "", new { @class = "text-danger" })
-                </div>
-            </div>
+<div>
+    <a class="btn btn-primary" asp-action="Index">Retour au menu</a>
+</div>
 
-
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Créer" class="btn btn-default" />
-                </div>
-            </div>
-        </div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
-
-    <div class="back">
-        <a href="@Url.Action("Index")">
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5" />
-            </svg>
-            Retour à la liste
-        </a>
-    </div>
-
-</section>
+}

@@ -5,6 +5,7 @@ using TicketsJO.ConfigurationMapping;
 //using MySql.Data.MySqlClient;
 //using MySqlX.XDevAPI;
 using TicketsJO.Data;
+using TicketsJO.Models;
 
 namespace TicketsJO
 {
@@ -28,12 +29,13 @@ namespace TicketsJO
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
-
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                  .AddRoles<IdentityRole>()
                  .AddEntityFrameworkStores<ApplicationDbContext>();
+
+
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddAutoMapper(typeof(MappingProfile));

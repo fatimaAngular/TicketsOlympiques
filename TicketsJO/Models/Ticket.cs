@@ -7,9 +7,12 @@ namespace TicketsJO.Models
         public int Id { get; set; }
         public string? NumSerie { get; set; }
         public double Prix { get; set; }
-        public DateTime? DateTicket { get; set; }       
-        public Event Event { get; set; }
-        public Offre Offre { get; set; }
-        public TypeTicket TypeTicke { get; set; }
+        public DateTime? DateTicket { get; set; }
+        public string? CleTicket { get; set; }
+        public string? QrCode { get; set; }
+        public string? TicketKey { get; set; }
+        public User? Client { get; set; }
+        public Offre? OffreInclud { get; set; }
+        public List<TicketDetail>? TicketDetails { get; set; }
     }
 }

@@ -1,4 +1,6 @@
-﻿@model TicketsJO.ViewModels.EventViewModel
+﻿@model TicketsJO.Models.Event
+
+
 
 @{
     ViewData["Title"] = "Create";
@@ -36,29 +38,37 @@
             </div>
 
             <div class="form-group">
-                <label asp-for="DisciplineName" class="control-label"></label>
-                <select asp-for="IdDiscipline" class="form-control" />
-                @foreach (var disciplineVm in Model.DisciplineVm)
+                <label asp-for="Capacite" class="control-label"></label>
+                <input asp-for="Capacite" class="form-control" />
+                <span asp-validation-for="Capacite" class="text-danger"></span>
+            </div>
+          
 
-                {
-                    <option value="@disciplineVm.Id"> @disciplineVm.Name </option>
-                }
-                <select/>
 
-                <div class="form-group">
-                    <label asp-for="StatutEventName" class="control-label"></label>
-                    <select asp-for="IDStatutEvent" class="form-control" />
-                    @foreach (var statuteventVm in Model.StatutEventVm)
-                    {
-                        <option value="@statuteventVm.Id"> @statuteventVm.Name </option>
-                    }
-                    <select />
+            <div class="form-group">
+
+                <label asp-for="Discipline" class="control-label">Discipline </label>
+
+                <select asp-for="Discipline" class="form-control" asp-items="ViewBag.Disciplines"></select>
+
+                <span asp-validation-for="Discipline" class="text-danger"></span>
+
+                <a class="nav-link text-primery" asp-controller="Disciplines" asp-action="Create">Ajouter une Discipline</a>
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StatutEvent" class="control-label">Statut </label>
+                <select asp-for="StatutEvent" class="form-control" asp-items="ViewBag.StatutEvent"></select>
+                <span asp-validation-for="StatutEvent" class="text-danger"></span>
+
+                <a class="nav-link text-primery" asp-controller="StatutEvents" asp-action="Create">Ajouter un statut</a>
 
             </div>
             
 
             <div class="form-group pt-3">
-                <input type="submit" value="Créer l'évènement" class="btn btn-success" />
+                    <input type="submit" value="Enregistrer" class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" />
             </div>
         </form>
     </div>

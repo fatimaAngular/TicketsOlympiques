@@ -2,7 +2,7 @@
 using TicketsJO.Models;
 using TicketsJO.ViewModels;
 using Microsoft.AspNetCore.Identity;
-using TicketsJO.ViewModels;
+
 
 
 namespace TicketsJO.ConfigurationMapping
@@ -32,7 +32,13 @@ namespace TicketsJO.ConfigurationMapping
                 .ReverseMap();
 
 
-            
+            //CreateMap<Offre, OffreViewModel>()
+            //    .ForMember(dest => dest.EventName, opt => opt.MapFrom(src =>
+            //    src.Events.Name))
+            //    .ForMember(dest => dest.EventId, opt => opt.MapFrom(src =>
+            //    src.Events.Id))
+            //    .ReverseMap();
+
 
         }
     }

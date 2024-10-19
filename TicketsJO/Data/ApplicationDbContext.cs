@@ -12,17 +12,18 @@ namespace TicketsJO.Data
         }
         public DbSet<Event>? Events { get; set; }
         public DbSet<Discipline>? Disciplines { get; set; }
-
-        public DbSet<Commande>? Commandes { get; set; }
         public DbSet<ModeDePaiement>? ModeDePaiements { get; set; }
         public DbSet<Paiement>? Paiements { get; set; }
-        public DbSet<Promotion>? Promotions { get; set; }
         public DbSet<StatutTicket>? StatutTickets { get; set; }
         public DbSet<TypeTicket>? TypeTickets { get; set; }
         public DbSet<Ticket>? Tickets { get; set; }
        
         public DbSet<StatutEvent> StatutEvents { get; set; }
 
+        public DbSet<Offre> Offres { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+
+        public DbSet<TicketDetail> TicketDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
 
@@ -32,30 +33,33 @@ namespace TicketsJO.Data
             base.OnModelCreating(builder); // pour ne pas ecraser les données deja générés par la méthode      
 
           
-            builder.Entity<User>()
-              .HasMany(u => u.CreatdEvents)
-              .WithOne(e => e.Creator);
+            //builder.Entity<User>()
+            //  .HasMany(u => u.CreatdEvents)
+            //  .WithOne(e => e.Creator);
       
-            builder.Entity<Event>()
-                .HasOne(e => e.Creator)
-                .WithMany(u => u.CreatdEvents);
+            //builder.Entity<Event>()
+            //    .HasOne(e => e.Creator)
+            //    .WithMany(u => u.CreatdEvents);
 
             //--------------------------------------------------------
 
-            builder.Entity<User>()
-             .HasMany(u => u.ListeCommandes)
-             .WithOne(e => e.User);
+          //  builder.Entity<User>()
+          //.HasMany(u => u.ListePaniers)
+          //.WithOne(e => e.Client);
 
-            builder.Entity<Commande>()
-                .HasOne(e => e.User)
-                .WithMany(u => u.ListeCommandes);               
+          //  builder.Entity<Cart>()
+          //      .HasOne(e => e.Client)
+          //      .WithMany(u => u.ListePaniers);
 
+            //------------------------------------------------------
+
+            
+          
 
             builder.Entity<Event>()
                 .Property(e => e.Name)
                 .HasMaxLength(256)
                 .IsRequired();
-
 
             builder.Entity<Event>()
                 .Property(e => e.Description)
@@ -92,17 +96,9 @@ namespace TicketsJO.Data
             //---------------------------------Offre ---------------------
 
             builder.Entity<Offre>()
-                .Property(c => c.TypeOffre)
-                .HasMaxLength(256)
-                .IsRequired();
-
-            builder.Entity<Offre>()
                .Property(c => c.Description)            
                .IsRequired();
-
-            builder.Entity<Offre>()
-              .Property(c => c.NBPersonnes)
-              .IsRequired();
+         
 
             builder.Entity<Offre>()
              .Property(c => c.Prix)
@@ -127,17 +123,8 @@ namespace TicketsJO.Data
                 .Property(c => c.Name)
                 .IsRequired();
 
-            //-------------------------Ticket -----------------------           
+            //-------------------------Ticket -----------------------      
 
-
-
-            builder.Entity<Event>()
-            .HasMany(u => u.Tickets)
-            .WithOne(e => e.Event);
-
-            builder.Entity<Ticket>()
-                .HasOne(e => e.Event)
-                .WithMany(u => u.Tickets);
 
 
             builder.Entity<Ticket>()
@@ -151,10 +138,6 @@ namespace TicketsJO.Data
             builder.Entity<Ticket>()
               .Property(c => c.DateTicket)
               .IsRequired();
-
-            //builder.Entity<Ticket>()
-            //  .Property(c => c.Event)
-            //  .IsRequired();      
 
             //-------------------------TypeTicket -----------------------
             builder.Entity<TypeTicket>()

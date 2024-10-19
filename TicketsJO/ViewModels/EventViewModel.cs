@@ -23,7 +23,7 @@ namespace TicketsJO.ViewModels
         public List<DisciplineViewModel>? DisciplineVm { get; set; }
         public List<StatutEventViewModel>? StatutEventVm { get; set; }
 
-        public List<StatutEventViewModel>? Offers { get; set; }
+        public ICollection<Offre>? Offres { get; set; }
         public string? AdresseEvent { get; set; }
         
 

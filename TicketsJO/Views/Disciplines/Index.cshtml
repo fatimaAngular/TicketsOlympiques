@@ -15,7 +15,7 @@
 
 
 <p>
-    <a asp-action="Create">Ajouter</a>
+    <a asp-action="Create" class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold">Ajouter</a>
 </p>
 
 <table class="table">
@@ -40,9 +40,9 @@
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.ID">Modifier</a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.ID">Supprimer</a>
-                    <a class="btn btn-primery" asp-action="Details" asp-route-id="@item.ID">Billet</a>
+                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@item.ID">Modifier</a>
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.ID">Supprimer</a>
+                    <a class="btn btn-outline-success" asp-action="Details" asp-route-id="@item.ID">Détails</a>
             </td>
         </tr>
 }

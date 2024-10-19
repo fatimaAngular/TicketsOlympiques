@@ -1,79 +1,91 @@
-﻿@model IEnumerable<TicketsJO.Models.Offre>
+﻿@using Microsoft.AspNetCore.Identity
+@using TicketsJO.Data;
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@model IEnumerable<TicketsJO.Models.Offre>
 
 @{
-    ViewBag.Title = "Index";
+    ViewData["Title"] = "Liste des offres";
 }
 
+<h1>Retrouvez la liste des offres créées</h1>
 
-<style>
-    .backNav {
-        display: none;
-    }
-
-    .titreNav {
-        display: none;
-    }
-</style>
-
-<section class="offre">
-
-    <h2>Offres</h2>
-
-    <p>
-        <a href="@Url.Action("Create")" class="lien">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
-                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0" />
-            </svg>
-            Ajouter
-        </a>
-    </p>
-    <table class="table">
+<table class="table table-striped table-responsive">
+    <thead class="thead-dark">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Photo)
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Titre)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TypeOffre)
-            </th>
-            <th>
+            <th scope="col">
                 @Html.DisplayNameFor(model => model.Description)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.NBPersonnes)
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Place)
             </th>
-            <th>
+            <th scope="col">
                 @Html.DisplayNameFor(model => model.Prix)
             </th>
-            <th>
-                Option
+            <th scope="col">
+                Détails de l'événement
+            </th>
+            <th scope="col">
+                Actions
             </th>
         </tr>
-
+    </thead>
+    <tbody>
         @foreach (var item in Model)
+
         {
             <tr>
-                <td data-label="Photo" class="imgAdmin">
-                    <img class="imgOffre"  src="~/Content/Formule/@item.Photo" />
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titre)
                 </td>
-                <td data-label="TypeOffre">
-                    @Html.DisplayFor(modelItem => item.TypeOffre)
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
                 </td>
-                <td data-label="Description">
-                    @Html.DisplayFor(model => item.Description)
+                <td>
+                    @Html.DisplayFor(modelItem => item.Place)
                 </td>
-                <td data-label="NB/Pers">
-                    @Html.DisplayFor(modelItem => item.NBPersonnes)
+                <td>
+                    @Html.DisplayFor(modelItem => item.Place) €
                 </td>
-                <td data-label="Prix">
-                    @Html.DisplayFor(modelItem => item.Prix)
+                <td>
+                    <div class="event-details">
+                        <strong>@Html.DisplayFor(modelItem => item.Events.Name)</strong><br />
+                        <em>@Html.DisplayFor(modelItem => item.Events.Description)</em><br />
+                        <span>@(item.Events.DateEvent.HasValue ? item.Events.DateEvent.Value.ToString("dd/MM/yyyy") : "Date non mentionnée")</span><br />
+                        <span>à @Html.DisplayFor(modelItem => item.Events.AdresseEvent)</span>
+                    </div>
                 </td>
-                <td data-label="Option">
-                    @Html.ActionLink("Edit", "Edit", new { id = item.OffreID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.OffreID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.OffreID })
+                <td>
+                    <div class="d-flex justify-content-between">
+                        @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
+
+                        {
+                            <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.OffreID">Modifier</a>
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.OffreID">Supprimer</a>
+                        }
+                        <a class="btn btn-info btn-sm" asp-action="Details" asp-route-id="@item.OffreID">Détail du billet</a>
+                    </div>
                 </td>
             </tr>
         }
+    </tbody>
+</table>
 
-    </table>
-</section>
+
+
+@if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
+
+{
+    <p>
+        <a asp-action="Create" class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold">
+            <i class="bi bi-plus-circle me-2"></i>Créer une offre
+        </a>
+    </p>
+}
+
+
+
+

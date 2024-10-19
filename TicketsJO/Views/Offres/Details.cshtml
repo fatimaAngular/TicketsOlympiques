@@ -1,57 +1,68 @@
-﻿@model TicketsJO.Models.Offre
+﻿@using Microsoft.AspNetCore.Identity
+@using TicketsJO.Data;
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@model TicketsJO.Models.Offre
 
 @{
-    ViewBag.Title = "Details";
+    ViewData["Title"] = "Détails de l'Offre";
 }
 
-<h2>Details</h2>
-
-<div>
-    <h4>Offre</h4>
+<div class="container mt-5">
+    <h1 class="text-center">@Html.DisplayFor(model => model.Titre)</h1>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Photo)
-        </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Photo)
-        </dd>
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Détails de l'Offre</h4>
+            <dl class="row">
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Titre)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Titre)</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.TypeOffre)
-        </dt>
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Description)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.TypeOffre)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Place)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Place)</dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Description)
-        </dd>
+                <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Prix)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Prix) €</dd>
+            </dl>
+        </div>
+    </div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.NBPersonnes)
-        </dt>
+    <div class="col-md-6">
+        <h4>Détails de l'Événement</h4>
+        @if (Model.Events != null)
 
-        <dd>
-            @Html.DisplayFor(model => model.NBPersonnes)
-        </dd>
+        {
+            <div class="event-details border p-3 rounded bg-light">
+                <strong>@Html.DisplayFor(model => model.Events.Name)</strong><br />
+                <em>@Html.DisplayFor(model => model.Events.Description)</em><br />
+                @if (Model.Events.DateEvent.HasValue)
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Prix)
-        </dt>
+                {
+                    <span>le @Model.Events.DateEvent.Value.ToString("dd/MM/yyyy")</span>
+                }<br />
+                <span>à @Html.DisplayFor(model => model.Events.AdresseEvent)</span>
+            </div>
+        }
 
-        <dd>
-            @Html.DisplayFor(model => model.Prix)
-        </dd>
+        else
 
-    </dl>
+        {
+            <div class="alert alert-warning" role="alert">
+                Aucun événement associé à cette offre.
+            </div>
+        }
+    </div>
+
+    <div class="mt-4 text-center">
+        @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
+
+        {
+            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.OffreID">Modifier</a>
+        }
+        <a asp-action="Index" class="btn btn-primary">Retour au menu</a>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.OffreID }) |
-    @Html.ActionLink("Retour à la liste", "Index")
-</p>

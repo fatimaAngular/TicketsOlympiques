@@ -13,8 +13,8 @@
     <h4 class="display-6">Liste des statut événement</h4>
 </div>
 
-<p> 
-    <a class="btn btn-secondary" asp-action="Create" >Ajouter</a>
+<p>
+    <a asp-action="Create" class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold">Ajouter</a>
 </p>
 <table class="table">
     <thead>
@@ -32,9 +32,9 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Modifier</a>
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Billet</a>
+                    <a class="btn btn-outline-dark" asp-action="Edit" asp-route-id="@item.Id">Modifier</a>
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+                    <a class="btn btn-outline-success" asp-action="Details" asp-route-id="@item.Id">Détails</a>
 
             </td>
         </tr>

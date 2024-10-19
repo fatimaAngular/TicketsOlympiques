@@ -45,7 +45,7 @@ namespace TicketsJO.Data.Migrations
                         .HasName("RoleNameIndex")
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
-                    b.ToTable("AspNetCoreRoles");
+                    b.ToTable("AspNetRoles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -69,7 +69,7 @@ namespace TicketsJO.Data.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetCoreRoleClaims");
+                    b.ToTable("AspNetRoleClaims");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
@@ -134,7 +134,7 @@ namespace TicketsJO.Data.Migrations
                         .HasName("UserNameIndex")
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
-                    b.ToTable("AspNetCoreUsers");
+                    b.ToTable("AspNetUsers");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -158,7 +158,7 @@ namespace TicketsJO.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetCoreUserClaims");
+                    b.ToTable("AspNetUserClaims");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
@@ -182,7 +182,7 @@ namespace TicketsJO.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetCoreUserLogins");
+                    b.ToTable("AspNetUserLogins");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
@@ -197,7 +197,7 @@ namespace TicketsJO.Data.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetCoreUserRoles");
+                    b.ToTable("AspNetUserRoles");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -218,7 +218,7 @@ namespace TicketsJO.Data.Migrations
 
                     b.HasKey("UserId", "LoginProvider", "Name");
 
-                    b.ToTable("AspNetCoreUserTokens");
+                    b.ToTable("AspNetUserTokens");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

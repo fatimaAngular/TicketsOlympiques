@@ -12,8 +12,8 @@ using TicketsJO.Data;
 namespace TicketsJO.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241016172930_miseajourEvent")]
-    partial class miseajourEvent
+    [Migration("20241018224724_CreationDesTables")]
+    partial class CreationDesTables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -235,42 +235,39 @@ namespace TicketsJO.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("TicketsJO.Models.Commande", b =>
+            modelBuilder.Entity("TicketsJO.Models.Cart", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("RecordId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RecordId"));
 
-                    b.Property<DateTime?>("DateCommande")
-                        .HasColumnType("datetime2");
-
-                    b.Property<byte[]>("QrCode")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
-
-                    b.Property<int>("TicketId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("TokenPrivate")
-                        .IsRequired()
+                    b.Property<string>("CartId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("TotaleCommande")
-                        .HasColumnType("float");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
+                    b.Property<string>("ClientId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("Id");
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
 
-                    b.HasIndex("TicketId");
+                    b.Property<int>("OffreID")
+                        .HasColumnType("int");
 
-                    b.HasIndex("UserId");
+                    b.Property<double>("Prix")
+                        .HasColumnType("float");
 
-                    b.ToTable("Commandes");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("RecordId");
+
+                    b.HasIndex("ClientId");
+
+                    b.HasIndex("OffreID");
+
+                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.Discipline", b =>
@@ -322,7 +319,7 @@ namespace TicketsJO.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DisciplineID")
+                    b.Property<int?>("DisciplineID")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -330,7 +327,7 @@ namespace TicketsJO.Data.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.Property<int>("StatutEventId")
+                    b.Property<int?>("StatutEventId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -370,28 +367,32 @@ namespace TicketsJO.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OffreID"));
 
+                    b.Property<string>("CreateurId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("NBPersonnes")
+                    b.Property<int>("EventId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Photo")
-                        .IsRequired()
+                    b.Property<string>("Place")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Prix")
                         .HasColumnType("float");
 
-                    b.Property<string>("TypeOffre")
-                        .IsRequired()
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                    b.Property<string>("Titre")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("OffreID");
 
-                    b.ToTable("Offre");
+                    b.HasIndex("CreateurId");
+
+                    b.HasIndex("EventId");
+
+                    b.ToTable("Offres");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.Paiement", b =>
@@ -401,9 +402,6 @@ namespace TicketsJO.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CommandId")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("DatePai")
                         .HasColumnType("datetime2");
@@ -416,44 +414,9 @@ namespace TicketsJO.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CommandId");
-
                     b.HasIndex("ModeDePaieId");
 
                     b.ToTable("Paiements");
-                });
-
-            modelBuilder.Entity("TicketsJO.Models.Promotion", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("CodePromo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("EndDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<double>("Prix")
-                        .HasColumnType("float");
-
-                    b.Property<double>("Reduction")
-                        .HasColumnType("float");
-
-                    b.Property<DateTime?>("StartDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("statut")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Promotions");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.StatutEvent", b =>
@@ -498,40 +461,74 @@ namespace TicketsJO.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("CommandeId")
-                        .HasColumnType("int");
+                    b.Property<string>("CleTicket")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClientId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTime?>("DateTicket")
                         .IsRequired()
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("EventId")
-                        .HasColumnType("int");
-
                     b.Property<string>("NumSerie")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("OffreID")
+                    b.Property<int?>("OffreIncludOffreID")
                         .HasColumnType("int");
 
                     b.Property<double>("Prix")
                         .HasColumnType("float");
 
-                    b.Property<int>("TypeTickeId")
+                    b.Property<string>("QrCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TicketKey")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClientId");
+
+                    b.HasIndex("OffreIncludOffreID");
+
+                    b.ToTable("Tickets");
+                });
+
+            modelBuilder.Entity("TicketsJO.Models.TicketDetail", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("IdOffre")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdTicket")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Nombre")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("OffreID")
+                        .HasColumnType("int");
+
+                    b.Property<double>("PrixUnitaire")
+                        .HasColumnType("float");
+
+                    b.Property<int?>("TicketId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CommandeId");
-
-                    b.HasIndex("EventId");
-
                     b.HasIndex("OffreID");
 
-                    b.HasIndex("TypeTickeId");
+                    b.HasIndex("TicketId");
 
-                    b.ToTable("Tickets");
+                    b.ToTable("TicketDetails");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.TypeTicket", b =>
@@ -635,23 +632,21 @@ namespace TicketsJO.Data.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TicketsJO.Models.Commande", b =>
+            modelBuilder.Entity("TicketsJO.Models.Cart", b =>
                 {
-                    b.HasOne("TicketsJO.Models.Ticket", "Ticket")
-                        .WithMany()
-                        .HasForeignKey("TicketId")
+                    b.HasOne("TicketsJO.Models.User", "Client")
+                        .WithMany("ListePaniers")
+                        .HasForeignKey("ClientId");
+
+                    b.HasOne("TicketsJO.Models.Offre", "Offre")
+                        .WithMany("Carts")
+                        .HasForeignKey("OffreID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TicketsJO.Models.User", "User")
-                        .WithMany("ListeCommandes")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Client");
 
-                    b.Navigation("Ticket");
-
-                    b.Navigation("User");
+                    b.Navigation("Offre");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.Event", b =>
@@ -662,15 +657,11 @@ namespace TicketsJO.Data.Migrations
 
                     b.HasOne("TicketsJO.Models.Discipline", "Discipline")
                         .WithMany("Events")
-                        .HasForeignKey("DisciplineID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DisciplineID");
 
                     b.HasOne("TicketsJO.Models.StatutEvent", "StatutEvent")
                         .WithMany()
-                        .HasForeignKey("StatutEventId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("StatutEventId");
 
                     b.Navigation("Creator");
 
@@ -679,59 +670,62 @@ namespace TicketsJO.Data.Migrations
                     b.Navigation("StatutEvent");
                 });
 
-            modelBuilder.Entity("TicketsJO.Models.Paiement", b =>
+            modelBuilder.Entity("TicketsJO.Models.Offre", b =>
                 {
-                    b.HasOne("TicketsJO.Models.Commande", "Command")
+                    b.HasOne("TicketsJO.Models.User", "Createur")
                         .WithMany()
-                        .HasForeignKey("CommandId")
+                        .HasForeignKey("CreateurId");
+
+                    b.HasOne("TicketsJO.Models.Event", "Events")
+                        .WithMany("Offres")
+                        .HasForeignKey("EventId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Createur");
+
+                    b.Navigation("Events");
+                });
+
+            modelBuilder.Entity("TicketsJO.Models.Paiement", b =>
+                {
                     b.HasOne("TicketsJO.Models.ModeDePaiement", "ModeDePaie")
                         .WithMany()
                         .HasForeignKey("ModeDePaieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Command");
-
                     b.Navigation("ModeDePaie");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.Ticket", b =>
                 {
-                    b.HasOne("TicketsJO.Models.Commande", null)
-                        .WithMany("TotalTicket")
-                        .HasForeignKey("CommandeId");
+                    b.HasOne("TicketsJO.Models.User", "Client")
+                        .WithMany()
+                        .HasForeignKey("ClientId");
 
-                    b.HasOne("TicketsJO.Models.Event", "Event")
-                        .WithMany("Tickets")
-                        .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("TicketsJO.Models.Offre", "OffreInclud")
+                        .WithMany()
+                        .HasForeignKey("OffreIncludOffreID");
 
+                    b.Navigation("Client");
+
+                    b.Navigation("OffreInclud");
+                });
+
+            modelBuilder.Entity("TicketsJO.Models.TicketDetail", b =>
+                {
                     b.HasOne("TicketsJO.Models.Offre", "Offre")
                         .WithMany()
-                        .HasForeignKey("OffreID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OffreID");
 
-                    b.HasOne("TicketsJO.Models.TypeTicket", "TypeTicke")
-                        .WithMany()
-                        .HasForeignKey("TypeTickeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Event");
+                    b.HasOne("TicketsJO.Models.Ticket", "Ticket")
+                        .WithMany("TicketDetails")
+                        .HasForeignKey("TicketId");
 
                     b.Navigation("Offre");
 
-                    b.Navigation("TypeTicke");
-                });
-
-            modelBuilder.Entity("TicketsJO.Models.Commande", b =>
-                {
-                    b.Navigation("TotalTicket");
+                    b.Navigation("Ticket");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.Discipline", b =>
@@ -741,14 +735,24 @@ namespace TicketsJO.Data.Migrations
 
             modelBuilder.Entity("TicketsJO.Models.Event", b =>
                 {
-                    b.Navigation("Tickets");
+                    b.Navigation("Offres");
+                });
+
+            modelBuilder.Entity("TicketsJO.Models.Offre", b =>
+                {
+                    b.Navigation("Carts");
+                });
+
+            modelBuilder.Entity("TicketsJO.Models.Ticket", b =>
+                {
+                    b.Navigation("TicketDetails");
                 });
 
             modelBuilder.Entity("TicketsJO.Models.User", b =>
                 {
                     b.Navigation("CreatdEvents");
 
-                    b.Navigation("ListeCommandes");
+                    b.Navigation("ListePaniers");
                 });
 #pragma warning restore 612, 618
         }

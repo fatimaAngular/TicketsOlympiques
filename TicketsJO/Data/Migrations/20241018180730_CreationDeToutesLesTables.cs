@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace TicketsJO.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class CreationTables : Migration
+    public partial class CreationDeToutesLesTables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -219,23 +219,6 @@ namespace TicketsJO.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Offre",
-                columns: table => new
-                {
-                    OffreID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Photo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    TypeOffre = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NBPersonnes = table.Column<int>(type: "int", nullable: false),
-                    Prix = table.Column<double>(type: "float", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Offre", x => x.OffreID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Promotions",
                 columns: table => new
                 {
@@ -294,6 +277,27 @@ namespace TicketsJO.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Paiements",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DatePai = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Montant = table.Column<double>(type: "float", nullable: false),
+                    ModeDePaieId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Paiements", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Paiements_ModeDePaiements_ModeDePaieId",
+                        column: x => x.ModeDePaieId,
+                        principalTable: "ModeDePaiements",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Events",
                 columns: table => new
                 {
@@ -306,7 +310,7 @@ namespace TicketsJO.Data.Migrations
                     DisciplineID = table.Column<int>(type: "int", nullable: false),
                     CreatorId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     AdresseEvent = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: false),
-                    StatutId = table.Column<int>(type: "int", nullable: false)
+                    StatutEventId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -323,62 +327,68 @@ namespace TicketsJO.Data.Migrations
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Events_StatutEvents_StatutId",
-                        column: x => x.StatutId,
+                        name: "FK_Events_StatutEvents_StatutEventId",
+                        column: x => x.StatutEventId,
                         principalTable: "StatutEvents",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Commandes",
+                name: "Offres",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    OffreID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DateCommande = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    TotaleCommande = table.Column<double>(type: "float", nullable: false),
-                    TicketId = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    TokenPrivate = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    QrCode = table.Column<byte[]>(type: "varbinary(max)", nullable: false)
+                    Titre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Place = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CreateurId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    Prix = table.Column<double>(type: "float", nullable: false),
+                    EventId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Commandes", x => x.Id);
+                    table.PrimaryKey("PK_Offres", x => x.OffreID);
                     table.ForeignKey(
-                        name: "FK_Commandes_AspNetUsers_UserId",
-                        column: x => x.UserId,
+                        name: "FK_Offres_AspNetUsers_CreateurId",
+                        column: x => x.CreateurId,
                         principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_Offres_Events_EventId",
+                        column: x => x.EventId,
+                        principalTable: "Events",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Paiements",
+                name: "Carts",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    RecordId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    DatePai = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Montant = table.Column<double>(type: "float", nullable: false),
-                    CommandId = table.Column<int>(type: "int", nullable: false),
-                    ModeDePaieId = table.Column<int>(type: "int", nullable: false)
+                    Quantity = table.Column<int>(type: "int", nullable: false),
+                    Prix = table.Column<double>(type: "float", nullable: false),
+                    DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    ClientId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    CartId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    OffreID = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Paiements", x => x.Id);
+                    table.PrimaryKey("PK_Carts", x => x.RecordId);
                     table.ForeignKey(
-                        name: "FK_Paiements_Commandes_CommandId",
-                        column: x => x.CommandId,
-                        principalTable: "Commandes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        name: "FK_Carts_AspNetUsers_ClientId",
+                        column: x => x.ClientId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
                     table.ForeignKey(
-                        name: "FK_Paiements_ModeDePaiements_ModeDePaieId",
-                        column: x => x.ModeDePaieId,
-                        principalTable: "ModeDePaiements",
-                        principalColumn: "Id",
+                        name: "FK_Carts_Offres_OffreID",
+                        column: x => x.OffreID,
+                        principalTable: "Offres",
+                        principalColumn: "OffreID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -391,48 +401,64 @@ namespace TicketsJO.Data.Migrations
                     NumSerie = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Prix = table.Column<double>(type: "float", nullable: false),
                     DateTicket = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EventId = table.Column<int>(type: "int", nullable: false),
-                    OffreID = table.Column<int>(type: "int", nullable: false),
-                    TypeTickeId = table.Column<int>(type: "int", nullable: false),
-                    CommandeId = table.Column<int>(type: "int", nullable: true)
+                    CleTicket = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    QrCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    TicketKey = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ClientId = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    OffreIncludOffreID = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Tickets", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Tickets_Commandes_CommandeId",
-                        column: x => x.CommandeId,
-                        principalTable: "Commandes",
+                        name: "FK_Tickets_AspNetUsers_ClientId",
+                        column: x => x.ClientId,
+                        principalTable: "AspNetUsers",
                         principalColumn: "Id");
                     table.ForeignKey(
-                        name: "FK_Tickets_Events_EventId",
-                        column: x => x.EventId,
-                        principalTable: "Events",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        name: "FK_Tickets_Offres_OffreIncludOffreID",
+                        column: x => x.OffreIncludOffreID,
+                        principalTable: "Offres",
+                        principalColumn: "OffreID");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "TicketDetails",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IdTicket = table.Column<int>(type: "int", nullable: false),
+                    IdOffre = table.Column<int>(type: "int", nullable: false),
+                    Nombre = table.Column<int>(type: "int", nullable: false),
+                    PrixUnitaire = table.Column<double>(type: "float", nullable: false),
+                    OffreID = table.Column<int>(type: "int", nullable: true),
+                    TicketId = table.Column<int>(type: "int", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TicketDetails", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Tickets_Offre_OffreID",
+                        name: "FK_TicketDetails_Offres_OffreID",
                         column: x => x.OffreID,
-                        principalTable: "Offre",
-                        principalColumn: "OffreID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalTable: "Offres",
+                        principalColumn: "OffreID");
                     table.ForeignKey(
-                        name: "FK_Tickets_TypeTickets_TypeTickeId",
-                        column: x => x.TypeTickeId,
-                        principalTable: "TypeTickets",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        name: "FK_TicketDetails_Tickets_TicketId",
+                        column: x => x.TicketId,
+                        principalTable: "Tickets",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Commandes_TicketId",
-                table: "Commandes",
-                column: "TicketId");
+                name: "IX_Carts_ClientId",
+                table: "Carts",
+                column: "ClientId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Commandes_UserId",
-                table: "Commandes",
-                column: "UserId");
+                name: "IX_Carts_OffreID",
+                table: "Carts",
+                column: "OffreID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Events_CreatorId",
@@ -445,14 +471,19 @@ namespace TicketsJO.Data.Migrations
                 column: "DisciplineID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Events_StatutId",
+                name: "IX_Events_StatutEventId",
                 table: "Events",
-                column: "StatutId");
+                column: "StatutEventId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Paiements_CommandId",
-                table: "Paiements",
-                column: "CommandId");
+                name: "IX_Offres_CreateurId",
+                table: "Offres",
+                column: "CreateurId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Offres_EventId",
+                table: "Offres",
+                column: "EventId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Paiements_ModeDePaieId",
@@ -460,24 +491,24 @@ namespace TicketsJO.Data.Migrations
                 column: "ModeDePaieId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tickets_CommandeId",
-                table: "Tickets",
-                column: "CommandeId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Tickets_EventId",
-                table: "Tickets",
-                column: "EventId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Tickets_OffreID",
-                table: "Tickets",
+                name: "IX_TicketDetails_OffreID",
+                table: "TicketDetails",
                 column: "OffreID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Tickets_TypeTickeId",
+                name: "IX_TicketDetails_TicketId",
+                table: "TicketDetails",
+                column: "TicketId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Tickets_ClientId",
                 table: "Tickets",
-                column: "TypeTickeId");
+                column: "ClientId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Tickets_OffreIncludOffreID",
+                table: "Tickets",
+                column: "OffreIncludOffreID");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_AspNetRoleClaims_AspNetRoles_RoleId",
@@ -526,14 +557,6 @@ namespace TicketsJO.Data.Migrations
                 principalTable: "AspNetUsers",
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Cascade);
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Commandes_Tickets_TicketId",
-                table: "Commandes",
-                column: "TicketId",
-                principalTable: "Tickets",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Cascade);
         }
 
         /// <inheritdoc />
@@ -563,9 +586,8 @@ namespace TicketsJO.Data.Migrations
                 name: "FK_AspNetUserTokens_AspNetUsers_UserId",
                 table: "AspNetUserTokens");
 
-            migrationBuilder.DropForeignKey(
-                name: "FK_Commandes_Tickets_TicketId",
-                table: "Commandes");
+            migrationBuilder.DropTable(
+                name: "Carts");
 
             migrationBuilder.DropTable(
                 name: "Paiements");
@@ -577,22 +599,22 @@ namespace TicketsJO.Data.Migrations
                 name: "StatutTickets");
 
             migrationBuilder.DropTable(
+                name: "TicketDetails");
+
+            migrationBuilder.DropTable(
+                name: "TypeTickets");
+
+            migrationBuilder.DropTable(
                 name: "ModeDePaiements");
 
             migrationBuilder.DropTable(
                 name: "Tickets");
 
             migrationBuilder.DropTable(
-                name: "Commandes");
+                name: "Offres");
 
             migrationBuilder.DropTable(
                 name: "Events");
-
-            migrationBuilder.DropTable(
-                name: "Offre");
-
-            migrationBuilder.DropTable(
-                name: "TypeTickets");
 
             migrationBuilder.DropTable(
                 name: "Disciplines");

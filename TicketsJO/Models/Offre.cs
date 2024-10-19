@@ -6,17 +6,14 @@ namespace TicketsJO.Models
     {
         [Key]
         public int OffreID { get; set; }
-        public string Photo { get; set; }
-        [Display(Name = "Type offre")]
-        public string TypeOffre { get; set; }
-        [Display(Name = "Description")]
+        public string? Titre { get; set; }
         public string Description { get; set; }
-
-        [Display(Name = "Nb personne")]
-        public int NBPersonnes { get; set; }
-
-        [Display(Name = "Prix")]
+        public string? Place { get; set; }
+        public User? Createur { get; set; }
         public double Prix { get; set; }
+        public int EventId { get; set; }
+        public Event? Events { get; set; }
+        public List<Cart>? Carts { get; set; }
 
     }
 }

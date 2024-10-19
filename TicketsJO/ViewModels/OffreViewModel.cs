@@ -5,25 +5,20 @@ namespace TicketsJO.ViewModels
 {
     public class OffreViewModel
     {
-        public int OfferId { get; set; }
-
-        [Display(Name = "Titre")]
-        public string? Title { get; set; }
-
-        [Display(Name = "Description")]
-        public string? Description { get; set; }
-
+        public int OffreID { get; set; }
+        public string? Titre { get; set; }
+        public string Description { get; set; }
         public string? Place { get; set; }
-
-        [Display(Name = "Prix")]
-        public decimal? Price { get; set; }
-        public User? Publish { get; set; }
-
-        [Display(Name = "Evènement")]
+        public User? Createur { get; set; }
+        public double Prix { get; set; }
         public int EventId { get; set; }
-
-        public Event? Events { get; set; }
-        public List<Ticket>? IsContained { get; set; }
+        public int EventName { get; set; }
+        public string? DescriptionEvent { get; set; }
+        public DateTime? DateEvent { get; set; }
+        public string? AdresseEvent { get; set; }
+        public List<EventViewModel>? ListeEventsVM { get; set; }
+        public List<Ticket>? ListeTickets { get; set; }
         public List<Cart>? Carts { get; set; }
+
     }
 }
