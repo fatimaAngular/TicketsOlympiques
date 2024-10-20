@@ -13,6 +13,7 @@ using System.Security.Claims;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
+using System.Linq.Expressions;
 
 namespace TicketsJO.Controllers
 {
@@ -111,26 +112,29 @@ namespace TicketsJO.Controllers
         [Authorize(Roles = "Organizer,Admin")]
         public async Task<IActionResult> Create([Bind("OffreID,Titre,Description,Place,Prix,EventId")] Offre offre)
         {
-            if (ModelState.IsValid)
-            {
+            
+                if (ModelState.IsValid)
+                {
 
-                offre.Createur = _context.Set<User>()
-                   .FirstOrDefault(o => o.Email.Equals(User.FindFirstValue(ClaimTypes.Email)));
+                    offre.Createur = _context.Set<User>()
+                       .FirstOrDefault(o => o.Email.Equals(User.FindFirstValue(ClaimTypes.Email)));
 
-                _context.Add(offre);
+                    _context.Add(offre);
 
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            var events = _context.Events
-                .Select(e => new {
-                    Id = e.Id,
-                    DisplayText = $"{e.Name} - le {e.DateEvent:dd/MM/yyyy} - à {e.AdresseEvent}"
-                })
-                .ToList();
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                var events = _context.Events
+                    .Select(e => new
+                    {
+                        Id = e.Id,
+                        DisplayText = $"{e.Name} - le {e.DateEvent:dd/MM/yyyy} - à {e.AdresseEvent}"
+                    })
+                    .ToList();
 
-            ViewData["EventId"] = new SelectList(events, "Id", "DisplayText", offre.EventId);
-            return View(offre);
+                ViewData["EventId"] = new SelectList(events, "Id", "DisplayText", offre.EventId);
+                return View(offre);            
+            
         }
 
         // GET: offres/Edit/5

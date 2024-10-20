@@ -13,6 +13,8 @@ using TicketsJO.ViewModels;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Mysqlx.Crud;
+using System.Security.Claims;
+
 
 namespace TicketsJO.Controllers
 {
@@ -31,10 +33,30 @@ namespace TicketsJO.Controllers
         }
 
         /// GET: Events
-        public async Task<IActionResult> Index()       {
-            
+        public async Task<IActionResult> Index()
+        {
 
-            return View(await _context.Events.ToListAsync());
+            if (User.Identity.Name == null)
+            {
+                return View(await _context.Events.ToListAsync());
+            }
+            else
+            {
+                var currentUser = await _userManager.GetUserAsync(User);
+                bool isOrganizer = await _userManager.IsInRoleAsync(currentUser, "Organizer");
+
+                // l'organisateur voit que ses propres evenements
+                if (isOrganizer)
+                {
+
+                    return View(await _context.Events.Where(e => e.Creator.Email.Equals(User.FindFirstValue(ClaimTypes.Email))).ToListAsync());
+                }
+                else
+                {
+                    return View(await _context.Events.ToListAsync());
+                }
+            }
+            
         }
 
         // GET: Events/Details/5
@@ -70,7 +92,7 @@ namespace TicketsJO.Controllers
         }
 
         // GET: Events/Create
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Organizer")]
         public IActionResult Create()
         {
 
@@ -117,7 +139,7 @@ namespace TicketsJO.Controllers
         /// </remarks>
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Organizer")]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,DateEvent,Capacite,Discipline,AdresseEvent,StatutEvent")] Event @event)
         {
             if (ModelState.IsValid)
@@ -165,7 +187,7 @@ namespace TicketsJO.Controllers
         /// correspondant à l'identifiant depuis la base de données. Si l'événement est trouvé, la vue 
         /// du formulaire d'édition est renvoyée, sinon une réponse NotFound est également renvoyée.
         /// </remarks>
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Organizer")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -199,7 +221,7 @@ namespace TicketsJO.Controllers
         /// </remarks>
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Organizer")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,DateEvent,Capacite,Discipline,AdresseEvent,StatutEvent")] Event @event)
         {
             if (id != @event.Id)
@@ -243,7 +265,7 @@ namespace TicketsJO.Controllers
         /// son ID à partir de la base de données. Si l'événement est trouvé, la vue de confirmation 
         /// de suppression est renvoyée. Sinon, une réponse NotFound est renvoyée, indiquant que l'événement.
         /// </remarks>
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Organizer")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -274,9 +296,9 @@ namespace TicketsJO.Controllers
         /// doit authentifié avec le rôle "Admin".Si l'événement est trouvé, il est supprimé de la base de
         /// données. La méthode redirige ensuite vers l'index des événements.
         /// </remarks>
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("Delete,")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin,Organizer")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var @event = await _context.Events.FindAsync(id);

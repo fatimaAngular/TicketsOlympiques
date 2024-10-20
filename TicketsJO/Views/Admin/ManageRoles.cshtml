@@ -1,0 +1,21 @@
+﻿@model ManageUserRolesViewModel
+
+<h2>Gérer les rôles pour @Model.UserName</h2>
+
+<form asp-action="ManageRoles" method="post">
+    <input type="hidden" asp-for="UserId" />
+
+    <div>
+        @for (int i = 0; i < Model.Roles.Count; i++)
+        {
+            <div class="form-check">
+                <!-- Liez la case à cocher en utilisant l'index pour lier à chaque rôle dans la liste -->
+                <input type="checkbox" asp-for="Roles[i].IsSelected" class="form-check-input" />
+                <label class="form-check-label">@Model.Roles[i].RoleName</label>
+                <input type="hidden" asp-for="Roles[i].RoleName" />
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Mettre à jour les rôles</button>
+</form>

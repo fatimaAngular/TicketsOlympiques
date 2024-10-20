@@ -74,9 +74,19 @@
 </div>
 
 <div class="mt-3">
-    @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
+    @if (User != null)
+
     {
-        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Modifier l'évènement</a>
+
+        @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
+
+        {
+
+            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Modifier l'évènement</a>
+
+        }
+
+
     }
     <a asp-action="Index" class="btn btn-outline-dark">Retour au menu</a>
 </div>

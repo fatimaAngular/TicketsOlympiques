@@ -481,9 +481,6 @@ namespace TicketsJO.Data.Migrations
                     b.Property<string>("QrCode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TicketKey")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("ClientId");
@@ -493,67 +490,14 @@ namespace TicketsJO.Data.Migrations
                     b.ToTable("Tickets");
                 });
 
-            modelBuilder.Entity("TicketsJO.Models.TicketDetail", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("IdOffre")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdTicket")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Nombre")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("OffreID")
-                        .HasColumnType("int");
-
-                    b.Property<double>("PrixUnitaire")
-                        .HasColumnType("float");
-
-                    b.Property<int?>("TicketId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("OffreID");
-
-                    b.HasIndex("TicketId");
-
-                    b.ToTable("TicketDetails");
-                });
-
-            modelBuilder.Entity("TicketsJO.Models.TypeTicket", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("TypeTickets");
-                });
-
             modelBuilder.Entity("TicketsJO.Models.User", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("Adresse")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CleCompte")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateNaissance")
@@ -670,7 +614,7 @@ namespace TicketsJO.Data.Migrations
             modelBuilder.Entity("TicketsJO.Models.Offre", b =>
                 {
                     b.HasOne("TicketsJO.Models.User", "Createur")
-                        .WithMany()
+                        .WithMany("CreatdOffres")
                         .HasForeignKey("CreateurId");
 
                     b.HasOne("TicketsJO.Models.Event", "Events")
@@ -710,21 +654,6 @@ namespace TicketsJO.Data.Migrations
                     b.Navigation("OffreInclud");
                 });
 
-            modelBuilder.Entity("TicketsJO.Models.TicketDetail", b =>
-                {
-                    b.HasOne("TicketsJO.Models.Offre", "Offre")
-                        .WithMany()
-                        .HasForeignKey("OffreID");
-
-                    b.HasOne("TicketsJO.Models.Ticket", "Ticket")
-                        .WithMany("TicketDetails")
-                        .HasForeignKey("TicketId");
-
-                    b.Navigation("Offre");
-
-                    b.Navigation("Ticket");
-                });
-
             modelBuilder.Entity("TicketsJO.Models.Discipline", b =>
                 {
                     b.Navigation("Events");
@@ -740,14 +669,11 @@ namespace TicketsJO.Data.Migrations
                     b.Navigation("Carts");
                 });
 
-            modelBuilder.Entity("TicketsJO.Models.Ticket", b =>
-                {
-                    b.Navigation("TicketDetails");
-                });
-
             modelBuilder.Entity("TicketsJO.Models.User", b =>
                 {
                     b.Navigation("CreatdEvents");
+
+                    b.Navigation("CreatdOffres");
 
                     b.Navigation("ListePaniers");
                 });

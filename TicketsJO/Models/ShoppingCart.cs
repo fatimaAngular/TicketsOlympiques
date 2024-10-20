@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
-using TicketsJO.Data;
 using Microsoft.EntityFrameworkCore;
 using TicketsJO.Models;
 
@@ -188,22 +187,7 @@ namespace TicketsJO.Models
             double ticketTotal = 0;
 
             _context.Tickets.Add(ticket);
-            _context.SaveChanges();
-
-            var cartItems = GetCartItems();
-            foreach (var item in cartItems)
-            {
-                var ticketDetail = new TicketDetail
-                {
-                    IdOffre = item.OffreID,
-                    Id = ticket.Id,
-                    PrixUnitaire = item?.Offre?.Prix ?? 0,
-                    Nombre = item.Quantity
-                };
-                ticketTotal += item.Quantity * item.Offre.Prix;
-
-                _context.TicketDetails.Add(ticketDetail);
-            }
+            _context.SaveChanges();           
             ticket.Prix = ticketTotal;
             _context.SaveChanges();
             EmptyCart();

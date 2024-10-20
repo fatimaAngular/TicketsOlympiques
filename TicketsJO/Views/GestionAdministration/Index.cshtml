@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Gestion administrative";
+}
+
+<div class="mb-3">
+    <div class="p-8 text-center bg-body-tertiary" style="background-image: url('images/ParisLogo.png'); background-size: contain; background-position: top; height: 300px; width: 100%">
+        <div class="container pt-10">
+            <h1> Gestion administrative</h1>
+        </div>
+    </div>
+</div>
+                        
+
+  <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+    <a class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" asp-controller="Users" asp-action="Index">Gestion utilisateurs</a>
+                                    </div>
+
+<div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+    <a class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" asp-controller="Role" asp-action="Index">Paramétrage des Rôles</a>
+</div>
+
+
+<div class="col-lg-4 offset-lg-1 p-0 overflow-hidden text-center pb-3">
+    <a class="btn btn-outline-primary btn-lg px-4 me-md-2 fw-bold" asp-controller="Admin" asp-action="UserList">Gestion des Rôles utilisateur</a>
+</div>
+                     
+

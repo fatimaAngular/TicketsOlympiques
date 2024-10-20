@@ -10,9 +10,8 @@ namespace TicketsJO.Models
         public DateTime? DateTicket { get; set; }
         public string? CleTicket { get; set; }
         public string? QrCode { get; set; }
-        public string? TicketKey { get; set; }
         public User? Client { get; set; }
         public Offre? OffreInclud { get; set; }
-        public List<TicketDetail>? TicketDetails { get; set; }
+       
     }
 }

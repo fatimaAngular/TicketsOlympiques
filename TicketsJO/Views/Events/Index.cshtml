@@ -36,6 +36,8 @@
 
 
 
+@if (User !=null)
+{
 
 @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
 {
@@ -87,8 +89,8 @@
                     </td>
                 <td>
                     <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Modifier</a>
-                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
-                    <a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.Id">Ticket</a>
+                        <a class="btn btn-outline-primary" asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+                        <a class="btn btn-outline-primary" asp-action="Details" asp-route-id="@item.Id">Ticket</a>
                 </td>
             </tr>
     }
@@ -96,6 +98,7 @@
     </table>
 }
 
+}
 
 
 @foreach (var item in Model) {

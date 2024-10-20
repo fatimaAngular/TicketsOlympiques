@@ -17,7 +17,7 @@ namespace TicketsJO.Models
 
         public List<Offre>? CreatdOffres { get; set; }
 
-        //public string? AccountKey { get; private set; }
+        public string? CleCompte { get; private set; }
 
 
         /// <summary>
@@ -29,12 +29,12 @@ namespace TicketsJO.Models
         /// La clé générée est une chaîne hexadécimale en minuscules, dérivée du hachage SHA256.
         /// </remarks>
         /// 
-        //public void GenerateAccountKey()
-        //{
-        //    using var sha256 = SHA256.Create();
-        //    var combinedValue = $"{Id}{Name}{Prenom}{Email}";
-        //    var hashBytes = SHA256.HashData(Encoding.UTF8.GetBytes(combinedValue));
-        //    AccountKey = BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
-        //}
+        public void GenerationCleCompte()
+        {
+            using var sha256 = SHA256.Create();
+            var combinedValue = $"{Id}{Name}{Prenom}{Email}";
+            var hashBytes = SHA256.HashData(Encoding.UTF8.GetBytes(combinedValue));
+            CleCompte = BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+        }
     }
 }

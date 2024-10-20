@@ -30,42 +30,57 @@
                         @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Organizer") || (User.IsInRole("Admin"))))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Organiser</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Gestion des évenements</a>
                             </li>
                         }
-
-                        @if (SignInManager.IsSignedIn(User))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="EventRegistrations" asp-action="Index">Participer</a>
-                            </li>
-
-                        }
+                        @if (User.IsInRole("Organizer"))
+                                {
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Suivi de mes évenements</a>
+                                </li>
+                                }                                       
+                                          
 
                         @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Users" asp-action="Index">Gestion Utilisateurs</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="GestionAdministration" asp-action="Index">Gestion Utilisateurs</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-white" asp-controller="Admin" asp-action="UserList">Rôles Utilisateurs</a>
-                            </li>                           
-
-                           
-                            <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Role" asp-action="Index">Gestion Rôles</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Liste et suivi des réservations</a>
                             </li>
 
-                        }
-                        @if (SignInManager.IsSignedIn(User))
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Rapports et statistiques</a>
+                            </li>
+                                                }
+                        @if (SignInManager.IsSignedIn(User) && ((!User.IsInRole("Organizer") && (!User.IsInRole("Admin")))))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Role" asp-action="GetMyRoles">Afficher mes Rôles</a>
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Evenements actuels</a>
                             </li>
 
-                        }
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Historique des réservations</a>
+                            </li>                           
 
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Offres actuelles</a>
+                            </li>
+
+                        } 
+
+                       @if (!SignInManager.IsSignedIn(User))
+                       {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Evenements actuels</a>
+                        </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Offres actuelles</a>
+                            </li>
+                       }
 
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Privacy">Notre Politique</a>

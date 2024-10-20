@@ -17,7 +17,7 @@ namespace TicketsJO
 
             // Add services to the container.
 
-            //------------------------- Probléme de MariaDB --------------------------------
+            //------------------------- Problï¿½me de MariaDB --------------------------------
             //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
             //builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -34,6 +34,7 @@ namespace TicketsJO
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                  .AddRoles<IdentityRole>()
                  .AddEntityFrameworkStores<ApplicationDbContext>();
+
 
 
             builder.Services.AddControllersWithViews();
@@ -54,7 +55,7 @@ namespace TicketsJO
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection(); //==> raison de sécurité pour rediriger les requettes vers le protocole https
+            app.UseHttpsRedirection(); //==> raison de sï¿½curitï¿½ pour rediriger les requettes vers le protocole https
             app.UseStaticFiles();
 
             app.UseRouting();
