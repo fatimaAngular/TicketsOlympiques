@@ -253,8 +253,7 @@ namespace TicketsJO.Data.Migrations
                     Prix = table.Column<double>(type: "float", nullable: false),
                     DateTicket = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CleTicket = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    QrCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TicketKey = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    QrCode = table.Column<string>(type: "nvarchar(max)", nullable: true),                    
                     ClientId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     OffreIncludOffreID = table.Column<int>(type: "int", nullable: true)
                 },

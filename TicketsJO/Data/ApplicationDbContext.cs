@@ -20,7 +20,8 @@ namespace TicketsJO.Data
         public DbSet<StatutEvent> StatutEvents { get; set; }
 
         public DbSet<Offre> Offres { get; set; }
-        public DbSet<Cart> Carts { get; set; }   
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<TicketDetail> TicketDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
 

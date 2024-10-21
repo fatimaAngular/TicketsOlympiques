@@ -35,11 +35,27 @@ namespace TicketsJO
                  .AddRoles<IdentityRole>()
                  .AddEntityFrameworkStores<ApplicationDbContext>();
 
-
+            builder.Services.AddScoped<ShoppingCart>(sp =>
+           ShoppingCart.GetCart(sp.GetRequiredService<IHttpContextAccessor>().HttpContext,
+                         sp.GetRequiredService<ApplicationDbContext>()));
 
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5); // Durée du verrouillage
+                options.Lockout.MaxFailedAccessAttempts = 3; // Nombre maximum de tentatives avant verrouillage
+                options.Lockout.AllowedForNewUsers = true; // Appliquer également pour les nouveaux utilisateurs
+            });
+
+            // Nécessaire pour accéder au HttpContext
+            builder.Services.AddHttpContextAccessor();
+
+            // Ajouter les sessions
+            builder.Services.AddSession();
 
             var app = builder.Build();
 
@@ -59,7 +75,7 @@ namespace TicketsJO
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthorization();
 
             app.MapControllerRoute(

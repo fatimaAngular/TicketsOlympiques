@@ -58,13 +58,13 @@ namespace TicketsJO.Controllers
         /// <returns>Redirection vers l'index du panier ou une erreur si l'offre n'est pas trouvée.</returns>
         public async Task<ActionResult> AddToCart(int id)
         {
-            var addedOffer = await _context.Offres.SingleAsync(offer => offer.OffreID == id);
-            if (addedOffer == null)
+            var addedOffre = await _context.Offres.SingleAsync(Offre => Offre.OffreID == id);
+            if (addedOffre == null)
             {
                 return NotFound();
             }
 
-            _cart.AddToCart(addedOffer);
+            _cart.AddToCart(addedOffre);
 
             return RedirectToAction("Index");
         }
@@ -93,12 +93,12 @@ namespace TicketsJO.Controllers
                 return NotFound();
             }
 
-            string offerName = cartItem.Offre?.Titre ?? "Offre n'exite pas";
+            string OffreName = cartItem.Offre?.Titre ?? "Offre n'exite pas";
             int itemQuantity = _cart.RemoveFromCart(id);
 
             var results = new ShoppingCartRemoveViewModel
             {
-                Message = WebUtility.HtmlEncode(offerName) +
+                Message = WebUtility.HtmlEncode(OffreName) +
                     " a été retiré de votre panier d'achat.",
                 CartTotal = _cart.GetTotal(),
                 CartCount = _cart.GetQuantity(),

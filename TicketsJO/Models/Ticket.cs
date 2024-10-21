@@ -12,6 +12,6 @@ namespace TicketsJO.Models
         public string? QrCode { get; set; }
         public User? Client { get; set; }
         public Offre? OffreInclud { get; set; }
-       
+        public List<TicketDetail>? TicketDetails { get; set; }
     }
 }

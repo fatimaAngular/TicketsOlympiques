@@ -1,0 +1,58 @@
+﻿@model IEnumerable<TicketsJO.Models.Ticket>
+
+@{
+    ViewData["Title"] = "Liste des commandes";
+}
+
+    <h2>Liste des commandes</h2>
+    <div class="table-responsive">
+    <table class="table table-sm table-striped table-bordered">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col" class="text-center">Offre</th>
+                    <th scope="col" class="text-center">Date d'achat</th>
+                    <th scope="col" class="text-center">@Html.DisplayNameFor(model => model.Prix)</th>
+                    <th scope="col" class="text-center w-25 d-none d-md-table-cell">@Html.DisplayNameFor(model => model.CleTicket)</th>
+                    <th scope="col" class="text-center">Email</th>
+                    <th scope="col" class="text-center w-25 d-none d-sm-table-cell">Client</th>
+                    <th scope="col" class="text-center">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <ul class="list-unstyled mb-0">
+                                @foreach (var detail in item.TicketDetails)
+                                {
+                                    <li>
+                                        <strong>@detail.Offre.Titre</strong>
+                                    </li>
+                                }
+                            </ul>
+                        </td>
+                        <td class="text-center">
+                            <span>@item.DateTicket</span>
+                        </td>
+                        <td class="text-center">
+                            <span>@item.Prix €</span>
+                        </td>
+                        <td class="text-center d-none d-md-table-cell">
+                            <code>@item.CleTicket</code>
+                        </td>
+                        <td class="text-center">
+                            @item.Client.Email
+                        </td>
+                        <td class="text-center d-none d-sm-table-cell">
+                            <span class="text-primery">@item.Client.CleCompte</span>
+                        </td>
+                        <td class="text-center">
+                        @Html.ActionLink("Consulter", "Ticket", "Validation", new { ticketId = item.Id }, new { @class = "btn btn-outline-primary" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

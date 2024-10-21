@@ -1,0 +1,53 @@
+﻿@model TicketsJO.Models.Ticket
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="card shadow-lg border-0 rounded">
+                <div class="btn btn-primary btn-lg">
+                    <p class="lead">@Model.Client.Name - @Model.Client.Prenom</p>
+                </div>
+                <div class="card-body p-5">
+                    <h4 class="mb-4">Impression du ticket</h4>
+                    <ul class="list-group list-group-flush mb-4">
+
+                        @foreach (var detail in Model.TicketDetails)
+                        {
+                            <li class="list-group-item">
+                                <h5 class="mb-2 text-primary">@detail.Offre.Events.Name</h5>                               
+                                <p class="mb-1"><strong>Description :</strong> @detail.Offre.Description</p>                               
+                                <p class="mb-1"><strong>Adresse :</strong> @Html.DisplayFor(m => detail.Offre.Events.AdresseEvent)</p>
+                                <p class="mb-1"><strong>Place :</strong> @detail.Offre.Place</p>
+                                <p class="mb-1">
+                                    <strong>@detail.Offre.Titre :</strong> @detail.PrixUnitaire € x @detail.Count
+                                </p>
+                            </li>
+                        }
+                    </ul>
+
+                    <p class="text-center"><strong>Total payé : <span class="text-success">@Model.Prix €</span></strong></p>
+
+                    <div class="text-center">
+                        <img src="data:image/png;base64,@Convert.ToBase64String(ViewBag.QRCodeImage)" alt="QR Code" class="img-fluid" />
+                    </div>
+                </div>                                
+
+                <div class="alert alert-info px-3" role="alert">
+                    <small>
+                        Imprimer ce ticket pour une éventuelle validation
+                    </small>
+                </div>
+
+                <div class="card-footer text-center bg-light py-3">
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">
+                        Retour à l'accueil
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

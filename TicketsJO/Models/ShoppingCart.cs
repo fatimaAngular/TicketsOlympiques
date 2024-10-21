@@ -187,7 +187,21 @@ namespace TicketsJO.Models
             double ticketTotal = 0;
 
             _context.Tickets.Add(ticket);
-            _context.SaveChanges();           
+            _context.SaveChanges();
+            var cartItems = GetCartItems();
+            foreach (var item in cartItems)    
+            {
+                var ticketDetail = new TicketDetail    // un ticket peut contenir plusieurs offre
+                {
+                    OffreId = item.OffreID,
+                    TicketId = ticket.Id,
+                    PrixUnitaire = (decimal)(item?.Offre?.Prix),
+                    Count = item.Quantity
+                };
+                ticketTotal += item.Quantity * item.Offre.Prix ;
+
+                _context.TicketDetails.Add(ticketDetail);
+            }
             ticket.Prix = ticketTotal;
             _context.SaveChanges();
             EmptyCart();

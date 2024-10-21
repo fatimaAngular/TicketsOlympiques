@@ -484,7 +484,7 @@ namespace TicketsJO.Data.Migrations
                     b.Property<string>("QrCode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TicketKey")
+                    b.Property<string>("CleTicket")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

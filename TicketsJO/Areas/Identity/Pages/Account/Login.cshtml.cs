@@ -14,6 +14,8 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using TicketsJO.Models;
+using TicketsJO.Data;
 
 namespace TicketsJO.Areas.Identity.Pages.Account
 {
@@ -21,11 +23,13 @@ namespace TicketsJO.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private ApplicationDbContext _context;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger, ApplicationDbContext context)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _context = context;
         }
 
         /// <summary>
@@ -101,6 +105,12 @@ namespace TicketsJO.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
         }
 
+        private void MigrateShoppingCart(string userName)
+        {
+            var cart = ShoppingCart.GetCart(HttpContext, _context);
+            cart.MigrateCart(userName);
+            HttpContext.Session.SetString(ShoppingCart.CartSessionKey, userName);
+        }
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
@@ -111,10 +121,11 @@ namespace TicketsJO.Areas.Identity.Pages.Account
             {
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+                    MigrateShoppingCart(Input.Email); // Récupération du panier sur le compte de l'utilisateur.
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

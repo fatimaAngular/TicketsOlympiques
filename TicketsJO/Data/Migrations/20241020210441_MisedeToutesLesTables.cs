@@ -17,7 +17,7 @@ namespace TicketsJO.Data.Migrations
                 name: "TypeTickets");
 
             migrationBuilder.DropColumn(
-                name: "TicketKey",
+                name: "CleTicket",
                 table: "Tickets");
         }
 
@@ -25,7 +25,7 @@ namespace TicketsJO.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "TicketKey",
+                name: "CleTicket",
                 table: "Tickets",
                 type: "nvarchar(max)",
                 nullable: true);
