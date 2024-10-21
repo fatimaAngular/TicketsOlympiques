@@ -100,19 +100,19 @@ namespace TicketsJO.Controllers
         public IActionResult Create()
         {
 
-            var disciplines = _context.Disciplines                    
+            var disciplines = _context?.Disciplines?                    
                      .ToList();
 
-            var StatutEvent = _context.StatutEvents
+            var StatutEvent = _context?.StatutEvents?
                      .ToList();
 
-            var disciplineItems = disciplines.Select(d => new SelectListItem
+            var disciplineItems = disciplines?.Select(d => new SelectListItem
             {
                 Value = d.ID.ToString(),  // La valeur sélectionnée (ID)
                 Text = d.Name              // Le texte affiché (Nom)
             }).ToList();
 
-            var StatutEventItems = StatutEvent.Select(d => new SelectListItem
+            var StatutEventItems = StatutEvent?.Select(d => new SelectListItem
             {
                 Value = d.Id.ToString(),  // La valeur sélectionnée (ID)
                 Text = d.Name              // Le texte affiché (Nom)
