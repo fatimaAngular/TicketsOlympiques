@@ -20,16 +20,20 @@ namespace TicketsJO.Controllers
 {
     public class EventsController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        public readonly ApplicationDbContext _context;
 
-        private readonly IMapper _mapper;
-        private readonly UserManager<IdentityUser> _userManager;
+        public readonly IMapper _mapper;
+        public readonly UserManager<IdentityUser> _userManager;
 
         public EventsController(ApplicationDbContext context, IMapper mapper, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _mapper = mapper;
             _userManager = userManager;
+        }
+
+        public EventsController()
+        {
         }
 
         /// GET: Events

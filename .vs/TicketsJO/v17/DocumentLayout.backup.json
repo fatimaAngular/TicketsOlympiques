@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE9A5B85-78D7-49CE-8B66-900C5D17986D}|TestUnitaire\\TestUnitaire.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\testunitaire\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE9A5B85-78D7-49CE-8B66-900C5D17986D}|TestUnitaire\\TestUnitaire.csproj|solutionrelative:testunitaire\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\data\\migrations\\20241021124550_creatyededtailticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\data\\migrations\\20241021124550_creatyededtailticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\gestionadministration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\gestionadministration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\validation\\ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\validation\\ticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -67,16 +123,8 @@
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\ticketdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\ticketdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\statuteventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,14 +141,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -199,14 +239,6 @@
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\viewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -243,14 +275,6 @@
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\role\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -265,10 +289,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\gestionadministration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\gestionadministration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\controllers\\gestionadministration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\controllers\\gestionadministration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -467,10 +487,6 @@
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\statutticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\disciplines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\disciplines\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -521,18 +537,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\statutevents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\statutevents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|c:\\users\\fatima\\desktop\\examen_depotfinal\\gestionticketsjo\\ticketsolympiques\\ticketsjo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B0335A59-CA67-45CE-9DDC-D6EA9037DA9E}|TicketsJO\\TicketsJO.csproj|solutionrelative:ticketsjo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -542,11 +546,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TestUnitaire\\UnitTest.cs",
+              "RelativeDocumentMoniker": "TestUnitaire\\UnitTest.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TestUnitaire\\UnitTest.cs*",
+              "RelativeToolTip": "TestUnitaire\\UnitTest.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T16:28:01.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TicketsJO\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:20:05.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "TicketsJO\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwGYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:23:37.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241021124550_CreatyeDedtailTicket.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
+              "RelativeToolTip": "TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:45:50.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TicketsJO\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\appsettings.Development.json",
+              "RelativeToolTip": "TicketsJO\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T14:38:53.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T17:56:45.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TicketsJO\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-17T07:29:03.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "TicketsJO\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T14:26:48.225Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -554,59 +662,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Delete.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Delete.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Tickets\\Delete.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAArwC4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T13:06:43.969Z",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\User.cs",
+              "RelativeToolTip": "TicketsJO\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:56:43.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Create.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Create.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Tickets\\Create.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAASwC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T13:04:05.241Z",
+              "DocumentIndex": 4,
+              "Title": "Discipline.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Discipline.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Models\\Discipline.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Discipline.cs",
+              "RelativeToolTip": "TicketsJO\\Models\\Discipline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T16:39:43.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TicketsJO",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\TicketsJO.csproj",
-              "RelativeDocumentMoniker": "TicketsJO\\TicketsJO.csproj",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\TicketsJO.csproj",
-              "RelativeToolTip": "TicketsJO\\TicketsJO.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-21T13:02:34.219Z",
+              "DocumentIndex": 2,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Event.cs",
+              "RelativeToolTip": "TicketsJO\\Models\\Event.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAjwBIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:56:08.715Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Index.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Index.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Tickets\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDkAAAAGAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Events\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T13:02:03.99Z",
+              "WhenOpened": "2024-10-17T13:08:32.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "GestionAdministration.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\GestionAdministration.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\GestionAdministration.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\GestionAdministration.cs",
+              "RelativeToolTip": "TicketsJO\\Controllers\\GestionAdministration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:33:51.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ticket.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\Ticket.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Validation\\Ticket.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\Ticket.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Validation\\Ticket.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T09:09:33.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Ticket.cs",
+              "RelativeToolTip": "TicketsJO\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T15:41:24.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ValidationEtPaiement.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T09:08:37.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Index.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Offres\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Index.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Offres\\Index.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswEQAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T17:56:18.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Create.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Disciplines\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Create.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Disciplines\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T14:20:34.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidationController.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\ValidationController.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\ValidationController.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\ValidationController.cs",
+              "RelativeToolTip": "TicketsJO\\Controllers\\ValidationController.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowH8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T08:50:02.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TicketDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\TicketDetail.cs",
+              "RelativeDocumentMoniker": "TicketsJO\\Models\\TicketDetail.cs",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\TicketDetail.cs",
+              "RelativeToolTip": "TicketsJO\\Models\\TicketDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:23:13.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "HistoriqueTickets.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\HistoriqueTickets.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Validation\\HistoriqueTickets.cshtml",
@@ -620,91 +832,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "TicketDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\TicketDetail.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Models\\TicketDetail.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\TicketDetail.cs",
-              "RelativeToolTip": "TicketsJO\\Models\\TicketDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:23:13.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Ticket.cs",
-              "RelativeToolTip": "TicketsJO\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:41:24.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ValidationController.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\ValidationController.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\ValidationController.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\ValidationController.cs",
-              "RelativeToolTip": "TicketsJO\\Controllers\\ValidationController.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAowH8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T08:50:02.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Create.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Disciplines\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Create.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Disciplines\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T14:20:34.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Index.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Offres\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Index.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Offres\\Index.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEQAAAB5AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Index.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Index.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Tickets\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T17:56:18.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValidationEtPaiement.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Validation\\ValidationEtPaiement.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T09:08:37.641Z",
+              "WhenOpened": "2024-10-21T13:02:03.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ticket.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\Ticket.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Validation\\Ticket.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Validation\\Ticket.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Validation\\Ticket.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "TicketsJO.csproj",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\TicketsJO.csproj",
+              "RelativeDocumentMoniker": "TicketsJO\\TicketsJO.csproj",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\TicketsJO.csproj",
+              "RelativeToolTip": "TicketsJO\\TicketsJO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-21T13:02:34.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Create.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Create.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Tickets\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAASwC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T09:09:33.135Z",
+              "WhenOpened": "2024-10-21T13:04:05.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Delete.cshtml",
+              "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Delete.cshtml",
+              "RelativeToolTip": "TicketsJO\\Views\\Tickets\\Delete.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAArwC4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T13:06:43.969Z",
               "EditorCaption": ""
             },
             {
@@ -713,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Details.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Details.cshtml",
@@ -726,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Tickets\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Tickets\\Edit.cshtml",
@@ -739,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Shared\\_Layout.cshtml",
@@ -752,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Events\\Index.cshtml",
@@ -765,19 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\User.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\User.cs",
-              "RelativeToolTip": "TicketsJO\\Models\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:56:43.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "StatutEventsController.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\StatutEventsController.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Controllers\\StatutEventsController.cs",
@@ -790,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 34,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\ApplicationDbContext.cs",
@@ -803,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "20241020131030_CreateTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241020131030_CreateTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241020131030_CreateTables.cs",
@@ -816,7 +978,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 33,
               "Title": "ShoppingCartController.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\ShoppingCartController.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Controllers\\ShoppingCartController.cs",
@@ -829,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Controllers\\TicketsController.cs",
@@ -842,7 +1004,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Models\\ShoppingCart.cs",
@@ -855,46 +1017,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20241021124550_CreatyeDedtailTicket.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
-              "RelativeToolTip": "TicketsJO\\Data\\Migrations\\20241021124550_CreatyeDedtailTicket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T12:45:50.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\ShoppingCart\\Index.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeToolTip": "TicketsJO\\Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAFQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwFQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-21T08:39:00.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "TicketsJO\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T12:23:37.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "ShoppingCartViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\ShoppingCartViewModel.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ViewModels\\ShoppingCartViewModel.cs",
@@ -902,11 +1038,12 @@
               "RelativeToolTip": "TicketsJO\\ViewModels\\ShoppingCartViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:20:57.325Z"
+              "WhenOpened": "2024-10-18T15:20:57.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Role\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Role\\Index.cshtml",
@@ -914,11 +1051,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Role\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:36:30.288Z"
+              "WhenOpened": "2024-10-20T13:36:30.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Details.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Offres\\Details.cshtml",
@@ -926,11 +1064,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Offres\\Details.cshtml",
               "ViewState": "AgIAAC8AAAAAAAAAAAAswDYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T17:59:25.056Z"
+              "WhenOpened": "2024-10-16T17:59:25.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Home\\Index.cshtml",
@@ -938,11 +1077,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T13:49:08.832Z"
+              "WhenOpened": "2024-10-17T13:49:08.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "Offre.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Offre.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Models\\Offre.cs",
@@ -950,11 +1090,12 @@
               "RelativeToolTip": "TicketsJO\\Models\\Offre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:29:07.091Z"
+              "WhenOpened": "2024-10-18T15:29:07.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 49,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -962,23 +1103,25 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T06:08:51.562Z"
+              "WhenOpened": "2024-10-21T06:08:51.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 41,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Details.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Events\\Details.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Details.cshtml",
               "RelativeToolTip": "TicketsJO\\Views\\Events\\Details.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAADwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAIBJwDwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T13:05:55.162Z"
+              "WhenOpened": "2024-10-17T13:05:55.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 40,
               "Title": "OffresController.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\OffresController.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Controllers\\OffresController.cs",
@@ -986,23 +1129,25 @@
               "RelativeToolTip": "TicketsJO\\Controllers\\OffresController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAADwvx4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T11:09:52.568Z"
+              "WhenOpened": "2024-10-18T11:09:52.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "shoppingCartRemoveViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\shoppingCartRemoveViewModel.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ViewModels\\shoppingCartRemoveViewModel.cs",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\shoppingCartRemoveViewModel.cs",
               "RelativeToolTip": "TicketsJO\\ViewModels\\shoppingCartRemoveViewModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA4wAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:20:19.591Z"
+              "WhenOpened": "2024-10-18T15:20:19.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\appsettings.json",
               "RelativeDocumentMoniker": "TicketsJO\\appsettings.json",
@@ -1010,11 +1155,12 @@
               "RelativeToolTip": "TicketsJO\\appsettings.json",
               "ViewState": "AgIAAAIAAAAAAAAAAAAgwA8AAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T16:25:57.723Z"
+              "WhenOpened": "2024-10-15T16:25:57.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 45,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -1022,23 +1168,25 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAmwIsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:22:00.071Z"
+              "WhenOpened": "2024-10-19T19:22:00.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 46,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAIBJwB8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T20:20:35.211Z"
+              "WhenOpened": "2024-10-19T20:20:35.211Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "Lockout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml.cs",
@@ -1046,11 +1194,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T06:08:24.187Z"
+              "WhenOpened": "2024-10-21T06:08:24.187Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Program.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Program.cs",
@@ -1058,23 +1207,25 @@
               "RelativeToolTip": "TicketsJO\\Program.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAQwE0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T17:26:16.464Z"
+              "WhenOpened": "2024-10-15T17:26:16.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAkwG0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAA5wG0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T05:44:29.475Z"
+              "WhenOpened": "2024-10-21T05:44:29.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 59,
               "Title": "UserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\UserViewModel.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ViewModels\\UserViewModel.cs",
@@ -1082,11 +1233,12 @@
               "RelativeToolTip": "TicketsJO\\ViewModels\\UserViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:04:52.113Z"
+              "WhenOpened": "2024-10-17T14:04:52.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 50,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -1094,11 +1246,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T20:24:24.39Z"
+              "WhenOpened": "2024-10-19T20:24:24.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 51,
               "Title": "Lockout.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
@@ -1106,11 +1259,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:31:06.267Z"
+              "WhenOpened": "2024-10-20T13:31:06.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 52,
               "Title": "20241020210441_MisedeToutesLesTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241020210441_MisedeToutesLesTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241020210441_MisedeToutesLesTables.cs",
@@ -1123,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Events\\Edit.cshtml",
@@ -1131,11 +1285,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Events\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T13:11:19.68Z"
+              "WhenOpened": "2024-10-17T13:11:19.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 54,
               "Title": "ModeDePaiement.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\ModeDePaiement.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Models\\ModeDePaiement.cs",
@@ -1143,11 +1298,12 @@
               "RelativeToolTip": "TicketsJO\\Models\\ModeDePaiement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:39:50.83Z"
+              "WhenOpened": "2024-10-18T16:39:50.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 53,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Models\\Cart.cs",
@@ -1155,35 +1311,25 @@
               "RelativeToolTip": "TicketsJO\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:32:18.784Z"
+              "WhenOpened": "2024-10-18T15:32:18.784Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 61,
               "Title": "OffreViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\OffreViewModel.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ViewModels\\OffreViewModel.cs",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\OffreViewModel.cs",
               "RelativeToolTip": "TicketsJO\\ViewModels\\OffreViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBQAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T17:05:57.17Z"
+              "WhenOpened": "2024-10-17T17:05:57.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Create.cshtml",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Events\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Create.cshtml",
-              "RelativeToolTip": "TicketsJO\\Views\\Events\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T13:08:32.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 60,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ConfigurationMapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ConfigurationMapping\\MappingProfile.cs",
@@ -1191,11 +1337,12 @@
               "RelativeToolTip": "TicketsJO\\ConfigurationMapping\\MappingProfile.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:03:08.397Z"
+              "WhenOpened": "2024-10-17T14:03:08.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 56,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Shared\\_LoginPartial.cshtml",
@@ -1203,36 +1350,25 @@
               "RelativeToolTip": "TicketsJO\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T17:52:47.951Z"
+              "WhenOpened": "2024-10-16T17:52:47.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Create.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Offres\\Create.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Create.cshtml",
               "RelativeToolTip": "TicketsJO\\Views\\Offres\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAIBJwCoAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBZwCoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-16T17:58:59.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Event.cs",
-              "RelativeToolTip": "TicketsJO\\Models\\Event.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAjwBoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:56:08.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 67,
               "Title": "UserList.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Admin\\UserList.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Admin\\UserList.cshtml",
@@ -1240,11 +1376,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Admin\\UserList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:34:31.285Z"
+              "WhenOpened": "2024-10-20T13:34:31.285Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 66,
               "Title": "ManageRoles.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Admin\\ManageRoles.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Admin\\ManageRoles.cshtml",
@@ -1252,11 +1389,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Admin\\ManageRoles.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:34:47.014Z"
+              "WhenOpened": "2024-10-20T13:34:47.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 64,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
@@ -1264,11 +1402,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAASwBkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:54:44.897Z"
+              "WhenOpened": "2024-10-20T14:54:44.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 62,
               "Title": "Email.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
@@ -1276,23 +1415,25 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T15:54:48.885Z"
+              "WhenOpened": "2024-10-20T15:54:48.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 63,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAIBJwAkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIBZwAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:09:44.573Z"
+              "WhenOpened": "2024-10-20T11:09:44.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 65,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -1300,23 +1441,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T20:26:21.035Z"
+              "WhenOpened": "2024-10-19T20:26:21.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "TicketsJO\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:20:05.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 68,
               "Title": "CreateRole.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Role\\CreateRole.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Role\\CreateRole.cshtml",
@@ -1324,11 +1454,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Role\\CreateRole.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:35:19.068Z"
+              "WhenOpened": "2024-10-20T13:35:19.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -1336,35 +1467,25 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:33:18.477Z"
+              "WhenOpened": "2024-10-20T13:33:18.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Users\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Users\\Index.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Users\\Index.cshtml",
               "RelativeToolTip": "TicketsJO\\Views\\Users\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAIBJwDcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBZwDcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:40:53.031Z"
+              "WhenOpened": "2024-10-20T13:40:53.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "RoleController.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\RoleController.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\RoleController.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\RoleController.cs",
-              "RelativeToolTip": "TicketsJO\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T14:26:48.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "ResetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
@@ -1372,35 +1493,25 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:34:03.668Z"
+              "WhenOpened": "2024-10-20T13:34:03.668Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "GestionAdministration.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\GestionAdministration.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Controllers\\GestionAdministration.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\GestionAdministration.cs",
-              "RelativeToolTip": "TicketsJO\\Controllers\\GestionAdministration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:33:51.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Users\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Users\\Edit.cshtml",
               "RelativeToolTip": "TicketsJO\\Views\\Users\\Edit.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAIBJwC4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBZwC4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:46:34.741Z"
+              "WhenOpened": "2024-10-20T13:46:34.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\GestionAdministration\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\GestionAdministration\\Index.cshtml",
@@ -1408,11 +1519,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\GestionAdministration\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T19:35:24.782Z"
+              "WhenOpened": "2024-10-19T19:35:24.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "ResendEmailConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
@@ -1420,11 +1532,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:33:12.727Z"
+              "WhenOpened": "2024-10-20T13:33:12.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 76,
               "Title": "LoginWith2fa.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
@@ -1432,11 +1545,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T13:32:31.803Z"
+              "WhenOpened": "2024-10-20T13:32:31.803Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 78,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
@@ -1444,11 +1558,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:30:32.348Z"
+              "WhenOpened": "2024-10-20T13:30:32.348Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 84,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -1456,11 +1571,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:03:16.094Z"
+              "WhenOpened": "2024-10-20T11:03:16.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -1468,11 +1584,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T20:28:02.468Z"
+              "WhenOpened": "2024-10-19T20:28:02.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 80,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
@@ -1480,11 +1597,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T13:29:17.622Z"
+              "WhenOpened": "2024-10-20T13:29:17.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 77,
               "Title": "LoginWith2fa.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
@@ -1492,11 +1610,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-19T20:27:08.999Z"
+              "WhenOpened": "2024-10-19T20:27:08.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 79,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -1504,11 +1623,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:09:30.601Z"
+              "WhenOpened": "2024-10-20T11:09:30.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 82,
               "Title": "20241020125455_CreatCleCompte.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241020125455_CreatCleCompte.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241020125455_CreatCleCompte.cs",
@@ -1519,7 +1639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 81,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -1527,11 +1647,12 @@
               "RelativeToolTip": "TicketsJO\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAQwIAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:50:09.077Z"
+              "WhenOpened": "2024-10-18T17:50:09.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 83,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -1539,11 +1660,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T11:03:23.99Z"
+              "WhenOpened": "2024-10-20T11:03:23.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 87,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -1551,11 +1673,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T10:51:58.003Z"
+              "WhenOpened": "2024-10-20T10:51:58.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 88,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -1563,11 +1686,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T10:51:52.966Z"
+              "WhenOpened": "2024-10-20T10:51:52.966Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 85,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -1575,11 +1699,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T10:51:49.552Z"
+              "WhenOpened": "2024-10-20T10:51:49.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 86,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Controllers\\UsersController.cs",
@@ -1587,11 +1712,12 @@
               "RelativeToolTip": "TicketsJO\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T19:27:50.464Z"
+              "WhenOpened": "2024-10-19T19:27:50.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 89,
               "Title": "RegisterConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
@@ -1599,11 +1725,12 @@
               "RelativeToolTip": "TicketsJO\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T20:30:54.813Z"
+              "WhenOpened": "2024-10-19T20:30:54.813Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 91,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Controllers\\HomeController.cs",
@@ -1611,11 +1738,12 @@
               "RelativeToolTip": "TicketsJO\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T18:03:10.869Z"
+              "WhenOpened": "2024-10-16T18:03:10.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 90,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Delete.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Offres\\Delete.cshtml",
@@ -1623,11 +1751,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Offres\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwBUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T17:59:21.256Z"
+              "WhenOpened": "2024-10-16T17:59:21.256Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 92,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Home\\Privacy.cshtml",
@@ -1635,11 +1764,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T17:47:02.14Z"
+              "WhenOpened": "2024-10-16T17:47:02.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 105,
               "Title": "FonctionUtile.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Helper\\FonctionUtile.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Helper\\FonctionUtile.cs",
@@ -1647,11 +1777,12 @@
               "RelativeToolTip": "TicketsJO\\Helper\\FonctionUtile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwCAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T11:21:29.704Z"
+              "WhenOpened": "2024-10-16T11:21:29.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 106,
               "Title": "EventViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\EventViewModel.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ViewModels\\EventViewModel.cs",
@@ -1659,11 +1790,12 @@
               "RelativeToolTip": "TicketsJO\\ViewModels\\EventViewModel.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:59:33.248Z"
+              "WhenOpened": "2024-10-17T13:59:33.248Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 107,
               "Title": "bootstrap.esm.min.js.map",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
@@ -1671,11 +1803,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmNQIAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T18:06:51.196Z"
+              "WhenOpened": "2024-10-18T18:06:51.196Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 108,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Events\\Delete.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Events\\Delete.cshtml",
@@ -1683,11 +1816,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Events\\Delete.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAUwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T13:10:54.303Z"
+              "WhenOpened": "2024-10-17T13:10:54.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 109,
               "Title": "DisciplinesController.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Controllers\\DisciplinesController.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Controllers\\DisciplinesController.cs",
@@ -1695,11 +1829,12 @@
               "RelativeToolTip": "TicketsJO\\Controllers\\DisciplinesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwCcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:39:23.995Z"
+              "WhenOpened": "2024-10-17T13:39:23.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 110,
               "Title": "bootstrap.js",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
@@ -1707,11 +1842,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
               "ViewState": "AgIAABMJAAAAAAAAAAAEwCYJAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T18:06:54.599Z"
+              "WhenOpened": "2024-10-18T18:06:54.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 111,
               "Title": "bootstrap.esm.js.map",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
@@ -1719,11 +1855,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAD+GAEAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T18:06:47.734Z"
+              "WhenOpened": "2024-10-18T18:06:47.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 112,
               "Title": "bootstrap.esm.js",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
@@ -1731,11 +1868,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
               "ViewState": "AgIAAPkIAAAAAAAAAAAMwAwJAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T18:06:45.263Z"
+              "WhenOpened": "2024-10-18T18:06:45.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 113,
               "Title": "bootstrap.bundle.min.js.map",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
@@ -1743,11 +1881,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAADSywMAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T18:06:42.971Z"
+              "WhenOpened": "2024-10-18T18:06:42.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 114,
               "Title": "bootstrap.js.map",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
@@ -1755,11 +1894,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASGQEAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T18:06:56.169Z"
+              "WhenOpened": "2024-10-18T18:06:56.169Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 115,
               "Title": "bootstrap.min.js.map",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
@@ -1767,11 +1907,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAC0HQIAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T18:07:21.572Z"
+              "WhenOpened": "2024-10-18T18:07:21.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 116,
               "Title": "bootstrap.bundle.js.map",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
@@ -1779,23 +1920,25 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAC/RgIAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T18:06:38.601Z"
+              "WhenOpened": "2024-10-18T18:06:38.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 117,
               "Title": "bootstrap.bundle.js",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
               "RelativeToolTip": "TicketsJO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-              "ViewState": "AgIAAOYPAAAAAAAAAIBZwAAQAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAOMPAAAAAAAAACBjwAAQAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T18:06:28.234Z"
+              "WhenOpened": "2024-10-18T18:06:28.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 118,
               "Title": "Paiement.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Paiement.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Models\\Paiement.cs",
@@ -1803,11 +1946,12 @@
               "RelativeToolTip": "TicketsJO\\Models\\Paiement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:39:59.436Z"
+              "WhenOpened": "2024-10-18T16:39:59.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 93,
               "Title": "20241018175401_CreateTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241018175401_CreateTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241018175401_CreateTables.cs",
@@ -1818,7 +1962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 94,
               "Title": "20241018171659_CreationTablesTotales.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Migrations\\20241018171659_CreationTablesTotales.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Migrations\\20241018171659_CreationTablesTotales.cs",
@@ -1829,7 +1973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 96,
               "Title": "20241018164350_CreateTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241018164350_CreateTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241018164350_CreateTables.cs",
@@ -1840,7 +1984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 95,
               "Title": "20241018165244_CreateTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241018165244_CreateTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241018165244_CreateTables.cs",
@@ -1851,7 +1995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 119,
               "Title": "StatutEvent.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\StatutEvent.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Models\\StatutEvent.cs",
@@ -1859,11 +2003,12 @@
               "RelativeToolTip": "TicketsJO\\Models\\StatutEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:40:30.433Z"
+              "WhenOpened": "2024-10-18T16:40:30.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 120,
               "Title": "StatutTicket.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\StatutTicket.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Models\\StatutTicket.cs",
@@ -1871,11 +2016,12 @@
               "RelativeToolTip": "TicketsJO\\Models\\StatutTicket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:40:34.057Z"
+              "WhenOpened": "2024-10-18T16:40:34.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 97,
               "Title": "20241018164059_CreateTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241018164059_CreateTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241018164059_CreateTables.cs",
@@ -1886,19 +2032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
-              "Title": "Discipline.cs",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Discipline.cs",
-              "RelativeDocumentMoniker": "TicketsJO\\Models\\Discipline.cs",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Models\\Discipline.cs",
-              "RelativeToolTip": "TicketsJO\\Models\\Discipline.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:39:43.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 121,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Disciplines\\Index.cshtml",
@@ -1906,11 +2040,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Disciplines\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T14:22:05.162Z"
+              "WhenOpened": "2024-10-17T14:22:05.162Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 98,
               "Title": "20241018133738_AjoutEventIDdansOffre.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241018133738_AjoutEventIDdansOffre.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241018133738_AjoutEventIDdansOffre.cs",
@@ -1921,19 +2056,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 122,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Offres\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Offres\\Edit.cshtml",
               "RelativeToolTip": "TicketsJO\\Views\\Offres\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAOBvwBIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAACBzwBIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T17:59:29.184Z"
+              "WhenOpened": "2024-10-16T17:59:29.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 123,
               "Title": "StatutEventVM.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\StatutEventVM.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ViewModels\\StatutEventVM.cs",
@@ -1941,11 +2077,12 @@
               "RelativeToolTip": "TicketsJO\\ViewModels\\StatutEventVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T15:16:48.8Z"
+              "WhenOpened": "2024-10-17T15:16:48.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 124,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Disciplines\\Edit.cshtml",
@@ -1953,11 +2090,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Disciplines\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T14:22:02.932Z"
+              "WhenOpened": "2024-10-17T14:22:02.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 125,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Delete.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Disciplines\\Delete.cshtml",
@@ -1965,11 +2103,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Disciplines\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T14:21:44.114Z"
+              "WhenOpened": "2024-10-17T14:21:44.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 126,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Disciplines\\Details.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\Disciplines\\Details.cshtml",
@@ -1977,11 +2116,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\Disciplines\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T14:21:58.933Z"
+              "WhenOpened": "2024-10-17T14:21:58.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 127,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\js\\site.js",
@@ -1989,11 +2129,12 @@
               "RelativeToolTip": "TicketsJO\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAIBpwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-18T08:23:18.386Z"
+              "WhenOpened": "2024-10-18T08:23:18.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 128,
               "Title": "DisciplineVm.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\ViewModels\\DisciplineVm.cs",
               "RelativeDocumentMoniker": "TicketsJO\\ViewModels\\DisciplineVm.cs",
@@ -2001,11 +2142,12 @@
               "RelativeToolTip": "TicketsJO\\ViewModels\\DisciplineVm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T14:01:08.703Z"
+              "WhenOpened": "2024-10-17T14:01:08.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 129,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\StatutEvents\\Index.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\StatutEvents\\Index.cshtml",
@@ -2013,11 +2155,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\StatutEvents\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:04:15.568Z"
+              "WhenOpened": "2024-10-17T16:04:15.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 130,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\StatutEvents\\Edit.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\StatutEvents\\Edit.cshtml",
@@ -2025,11 +2168,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\StatutEvents\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:08:39.874Z"
+              "WhenOpened": "2024-10-17T16:08:39.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 131,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\StatutEvents\\Details.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\StatutEvents\\Details.cshtml",
@@ -2037,11 +2181,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\StatutEvents\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:08:00.192Z"
+              "WhenOpened": "2024-10-17T16:08:00.192Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 132,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\StatutEvents\\Delete.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\StatutEvents\\Delete.cshtml",
@@ -2049,11 +2194,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\StatutEvents\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:07:13.247Z"
+              "WhenOpened": "2024-10-17T16:07:13.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 133,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\StatutEvents\\Create.cshtml",
               "RelativeDocumentMoniker": "TicketsJO\\Views\\StatutEvents\\Create.cshtml",
@@ -2061,35 +2207,12 @@
               "RelativeToolTip": "TicketsJO\\Views\\StatutEvents\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:06:42.87Z"
+              "WhenOpened": "2024-10-17T16:06:42.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "TicketsJO\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "TicketsJO\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAOBvwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-17T07:29:03.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 131,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "TicketsJO\\Views\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-16T17:56:45.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 99,
               "Title": "20241016172123_CreationTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241016172123_CreationTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241016172123_CreationTables.cs",
@@ -2100,19 +2223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "TicketsJO\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\appsettings.Development.json",
-              "RelativeToolTip": "TicketsJO\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-16T14:38:53.444Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 100,
               "Title": "20241016171120_Creationdestables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241016171120_Creationdestables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241016171120_Creationdestables.cs",
@@ -2123,7 +2234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 101,
               "Title": "20241016164040_CreatTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241016164040_CreatTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241016164040_CreatTables.cs",
@@ -2134,7 +2245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 102,
               "Title": "20241016142532_CreationTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241016142532_CreationTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241016142532_CreationTables.cs",
@@ -2145,7 +2256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 103,
               "Title": "20241016141537_CreationTables.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241016141537_CreationTables.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241016141537_CreationTables.cs",
@@ -2156,7 +2267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 104,
               "Title": "20241016142054_CreationTableApp.cs",
               "DocumentMoniker": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\Data\\Migrations\\20241016142054_CreationTableApp.cs",
               "RelativeDocumentMoniker": "TicketsJO\\Data\\Migrations\\20241016142054_CreationTableApp.cs",
