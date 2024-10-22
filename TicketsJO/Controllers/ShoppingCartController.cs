@@ -108,22 +108,22 @@ namespace TicketsJO.Controllers
             return Json(results);
         }
 
-        //GET: /ShoppingCart/CartSummary
+        //GET: /ShoppingCart/CartTotal
         /// <summary>
         /// Affiche un résumé du panier dans la barre de navigation.
         /// </summary>
         /// <remarks>
-        /// Cette méthode renvoie une vue partielle (CartSummaryViewComponent) affiche le nombre d'articles
+        /// Cette méthode renvoie une vue partielle (CartTotalViewComponent) affiche le nombre d'articles
         /// actuel dans le panier ainsi que le montant total du panier. Il est actualisé en temps réel grâce
         /// à une requête AJAX. 
         /// </remarks>
         /// <returns>Vue partielle du résumé du panier avec le nombre d'articles et le montant total.</returns>
 
-        public ActionResult CartSummary()
+        public ActionResult CartTotal()
         {
             var cart = _context.Carts;
-            ViewData["CartCount"] = _cart.GetQuantity();
-            return PartialView("CartSummary");
+            ViewData["CartNombre"] = _cart.GetQuantity();
+            return PartialView("CartTotal");
         }
     }
 }

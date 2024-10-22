@@ -32,9 +32,9 @@ namespace TicketsJO.Controllers
             _userManager = userManager;
         }
 
-        public EventsController()
-        {
-        }
+        //public EventsController()
+        //{
+        //}
 
         /// GET: Events
         public async Task<IActionResult> Index()

@@ -30,6 +30,11 @@ namespace TicketsJO.Controllers
             _mapper = mapper;
             _userManager = userManager;
         }
+
+        //public OffresController()
+        //{
+        //}
+
         // GET: Offres
         /// <summary>
         /// Récupère et affiche la liste des offres avec les événements associés.
@@ -83,14 +88,15 @@ namespace TicketsJO.Controllers
         [Authorize(Roles = "Organizer,Admin")]
         public IActionResult Create()
         {
-            var events = _context.Events
+            var events = _context?.Events?
                 .Select(e => new {
                     Id = e.Id,
                     DisplayText = $"{e.Name} - le {e.DateEvent:dd/MM/yyyy} - à {e.AdresseEvent}"
                 })
                 .ToList();
 
-            ViewData["EventId"] = new SelectList(events, "Id", "DisplayText");
+           if (events!=null)
+                ViewData["EventId"] = new SelectList(events, "Id", "DisplayText");
 
             return View();
         }

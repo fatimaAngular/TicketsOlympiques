@@ -10,22 +10,21 @@
 
 $(document).ready(() => {
     const $toggleButton = $('#toggleSearch');
-    const $searchForm = $('#searchForm');
+    const $searchForm = $('#searchForm');   
     const $dateInput = $('#date');
-    const $events = $('.container.my-5');
+    const $events = $('.container.my-3');
 
     $toggleButton.click(() => {
         const isHidden = $searchForm.css('display') === 'none';
         $searchForm.css('display', isHidden ? 'block' : 'none');
-        $toggleButton.text(isHidden ? 'Masquer' : 'Rechercher');
+        $toggleButton.text(isHidden ? 'Masquer' : 'Rechercher ');
     });
 
-    const filterEvents = () => {
-
+    const filterEvents = () => {        
         const selectedDate = $dateInput.val() ? new Date($dateInput.val()) : null;
 
         $events.each(function () {
-            const $event = $(this);
+            const $event = $(this);           
             const eventDateText = $event.find('.lead.fw-bold').text().trim();
             let eventDate = null;
 
@@ -39,11 +38,10 @@ $(document).ready(() => {
            
             const isDateMatch = !selectedDate || (eventDate && selectedDate.toDateString() === eventDate.toDateString());
 
-            $event.css('display', (isSportMatch && isSiteMatch && isDateMatch) ? 'block' : 'none');
+            $event.css('display', (isDateMatch) ? 'block' : 'none');
         });
     };
-
-
+    
     $dateInput.on('input', filterEvents);
 });
 

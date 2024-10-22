@@ -1,10 +1,31 @@
-﻿@model IEnumerable<TicketsJO.Models.Ticket>
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<TicketsJO.Models.Ticket>
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Liste des commandes";
 }
 
-    <h2>Liste des commandes</h2>
+<h2 class="fs-4 fw-bold text-primary text-center" >Liste des commandes</h2>
+
+
+<div class="text-start">
+    <button id="toggleSearch" class="btn btn-outline-primary "> Rechercher</button>
+    <div id="searchForm" style="display: none;">
+        <form asp-action="Index" method="get">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    @*  <label for="date" class="form-label">Date</label> *@
+                    <input id="date" name="date" type="date" class="form-control" />
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
     <div class="table-responsive">
     <table class="table table-sm table-striped table-bordered">
             <thead class="thead-light">
@@ -12,10 +33,10 @@
                     <th scope="col" class="text-center">Offre</th>
                     <th scope="col" class="text-center">Date d'achat</th>
                     <th scope="col" class="text-center">@Html.DisplayNameFor(model => model.Prix)</th>
-                    <th scope="col" class="text-center w-25 d-none d-md-table-cell">@Html.DisplayNameFor(model => model.CleTicket)</th>
+                    <th scope="col" class="text-center w-25 d-none d-md-table-cell">@Html.DisplayNameFor(model => model.NumSerie)</th>
                     <th scope="col" class="text-center">Email</th>
                     <th scope="col" class="text-center w-25 d-none d-sm-table-cell">Client</th>
-                    <th scope="col" class="text-center">Action</th>
+                    <th scope="col" class="text-center">Ticket</th>
                 </tr>
             </thead>
             <tbody>
@@ -39,13 +60,13 @@
                             <span>@item.Prix €</span>
                         </td>
                         <td class="text-center d-none d-md-table-cell">
-                            <code>@item.CleTicket</code>
+                            <code>@item.NumSerie</code>
                         </td>
                         <td class="text-center">
                             @item.Client.Email
                         </td>
                         <td class="text-center d-none d-sm-table-cell">
-                            <span class="text-primery">@item.Client.CleCompte</span>
+                        <span class="text-primery">@item.Client.Name @item.Client.Prenom</span>
                         </td>
                         <td class="text-center">
                         @Html.ActionLink("Consulter", "Ticket", "Validation", new { ticketId = item.Id }, new { @class = "btn btn-outline-primary" })
@@ -55,4 +76,18 @@
             </tbody>
         </table>
     </div>
+
+<div class="row mt-4">
+    <div class="col-md-4 mb-3">
+        <div class="form-group">
+            <p class="fs-5 fw-bold text-primary">Total Commandes : @ViewBag.TotalVentes </p>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="form-group">
+            <p class="fs-5 fw-bold text-primary">Total Vente : @ViewBag.MontantTotal €</p>
+        </div>
+    </div>
+
 </div>

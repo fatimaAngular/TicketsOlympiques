@@ -17,31 +17,32 @@ namespace TestUnitaire
         [TestClass]
     public class TesterCreatEvenement
     {
+        //[TestMethod]
+
+        // -----------Test de creaion d'un évenement par l'Admin-----------------
+        //public void TestCreatEvent()
+        //{
+
+        //    var controller = new EventsController();
+
+        //    var user = new ClaimsPrincipal(new ClaimsIdentity(claims: new[] { new Claim(ClaimTypes.Role, "Admin") }));
+
+        //    var context = new DefaultHttpContext { User = user };
+
+        //    controller.ControllerContext.HttpContext = context;
+
+        //    var reponse = controller.Create();
+        //    Assert.IsNotNull(reponse);
+        //    Assert.IsInstanceOfType(reponse, typeof(ViewResult));
+        //    Console.WriteLine("l'évenement a été crée avec Succés");
+
+        //    var veiwReponse = reponse as ViewResult;
+        //    Assert.IsNotNull(veiwReponse);
+
+        //}
+
+        // -----------Test de creaion d'un évenement par l'Admin-----------------
         [TestMethod]
-
-        // -----------Test de creaion d'un évenement par l'Admin-----------------
-        public void TestCreatEvent()
-        {
-
-                var controller = new EventsController();
-
-            var user = new ClaimsPrincipal(new ClaimsIdentity(claims: new[] { new Claim(ClaimTypes.Role, "Admin") }));
-
-            var context = new DefaultHttpContext { User = user };
-
-            controller.ControllerContext.HttpContext = context;
-
-            var reponse = controller.Create();
-            Assert.IsNotNull(reponse);
-            Assert.IsInstanceOfType(reponse, typeof(ViewResult));
-            Console.WriteLine("l'évenement a été crée avec Succés");
-
-            var veiwReponse = reponse as ViewResult;
-            Assert.IsNotNull(veiwReponse);
-
-        }
-
-        // -----------Test de creaion d'un évenement par l'Admin-----------------
         public void TestGenerationCleUtilisateur()
         {
 
@@ -63,5 +64,28 @@ namespace TestUnitaire
 
         }
 
+
+        // -----------Test de creation d'une offre par l'admin-----------------
+        //[TestMethod]
+        //public void TestCreationOffre()
+        //{
+            
+        //    var offre = new OffresController();
+
+        //    var user = new ClaimsPrincipal(new ClaimsIdentity(claims: new[] { new Claim(ClaimTypes.Role, "Admin") }));
+
+        //    var context = new DefaultHttpContext { User = user };
+
+        //    offre.ControllerContext.HttpContext = context;
+
+        //    var reponse = offre.Create();
+        //    Assert.IsNotNull(reponse);
+        //    Assert.IsInstanceOfType(reponse, typeof(ViewResult));
+        //    Console.WriteLine("l'offre a été crée avec Succés");
+
+        //    var veiwReponse = reponse as ViewResult;
+        //    Assert.IsNotNull(veiwReponse);
+
+        //}
     }
 }

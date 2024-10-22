@@ -8,33 +8,32 @@
 
 
 @{
-    ViewData["Title"] = "Evenements";
+    ViewData["Title"] = "Index";
 }
 
-<div class="text-start">
-    <button id="toggleSearch" class="btn btn-outline-dark "> Rechercher</button>
+<p>
+    <button id="toggleSearch" class="btn btn-outline-primary"> Rechercher</button>
     <div id="searchForm" style="display: none;">
         <form asp-action="Index" method="get">
             <div class="row">
                 <div class="col-md-4 mb-3">
-                   @*  <label for="date" class="form-label">Date</label> *@
+                    @* <label for="date" class="form-label">Date</label> *@
                     <input id="date" name="date" type="date" class="form-control" />
                 </div>
             </div>
         </form>
     </div>
-</div>
+</p>
+
 
 
 <div class="mb-3">
     <div class="p-8 text-center bg-body-tertiary" style="background-image: url('images/Paris2024.png'); background-size: contain; background-position: top; height: 300px; width: 100%">
         <div class="container pt-10">
-            <h1> Tickets des Jeux Olympiques Paris 2024</h1>            
+            <h1> Tickets des Jeux Olympiques Paris 2024</h1>
         </div>
     </div>
 </div>
-
-
 
 @if (User !=null)
 {
@@ -99,7 +98,6 @@
 }
 
 }
-
 
 @foreach (var item in Model) {
     <div class="row mb-2">

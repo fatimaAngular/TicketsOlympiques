@@ -65,6 +65,14 @@
       "PackagePath": "staticwebassets\\images\\offrespeciale.png"
     },
     {
+      "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\panier.png",
+      "PackagePath": "staticwebassets\\images\\panier.png"
+    },
+    {
+      "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\panier2.png",
+      "PackagePath": "staticwebassets\\images\\panier2.png"
+    },
+    {
       "Id": "C:\\Users\\Fatima\\Desktop\\Examen_DepotFinal\\GestionTicketsJO\\TicketsOlympiques\\TicketsJO\\wwwroot\\images\\stade_olympique.png",
       "PackagePath": "staticwebassets\\images\\stade_olympique.png"
     },

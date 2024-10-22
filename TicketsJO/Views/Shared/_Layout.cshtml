@@ -34,14 +34,7 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Gestion des évenements</a>
                             </li>
-                        }
-                        @if (User.IsInRole("Organizer"))
-                                {
-                                <li class="nav-item">
-                                    <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Suivi de mes évenements</a>
-                                </li>
-                                }                                       
-                                          
+                        }                              
 
                         @if (SignInManager.IsSignedIn(User) && (User.IsInRole("Admin")))
                         {
@@ -61,12 +54,14 @@
                             </li>
 
                             <li class="nav-item">
+                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Offres actuelles</a>
+                            </li>
+
+                            <li class="nav-item">
                                 <a class="nav-link text-white" asp-area="" asp-controller="Tickets" asp-action="Index">Historique des réservations</a>
                             </li>                           
 
-                            <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Offres actuelles</a>
-                            </li>
+                           
 
                         } 
 
@@ -80,15 +75,7 @@
                                 <a class="nav-link text-white" asp-area="" asp-controller="Events" asp-action="Index">Offres actuelles</a>
                             </li>
                        }
-
-                        @if (SignInManager.IsSignedIn(User))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-white" asp-area="" asp-controller="ShoppingCart" asp-action="Index">Panier</a>
-                            </li>
-
-                            
-                        }
+                       
 
                         @* 
 

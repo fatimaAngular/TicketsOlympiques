@@ -10,16 +10,23 @@ using TicketsJO.Models;
 using Microsoft.AspNetCore.Authorization;
 using TicketsJO.Data;
 using TicketsJO.Models;
+using Microsoft.AspNetCore.Identity;
+using AutoMapper;
+using System.Security.Claims;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TicketsJO.Controllers
 {
     public class TicketsController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-        public TicketsController(ApplicationDbContext context)
+        public readonly IMapper _mapper;
+        public readonly UserManager<IdentityUser> _userManager;
+        public TicketsController(ApplicationDbContext context, IMapper mapper, UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _mapper = mapper;
+            _userManager = userManager;
         }
 
         // GET: Tickets
@@ -33,19 +40,38 @@ namespace TicketsJO.Controllers
         /// <returns>
         /// Retourne la vue avec la liste complète des tickets et les informations de statistiques (nombre total et montant des ventes).
         /// </returns>
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
-            var tickets = await _context.Tickets
-                .Include(t => t.Client)
-                .Include(t => t.TicketDetails)
-                 .ThenInclude(td => td.Offre)
-                .ToListAsync();
+            var currentUser = await _userManager.GetUserAsync(User);
+            bool isAdmin = await _userManager.IsInRoleAsync(currentUser, "Admin");
+           
+            List<Ticket> tickets = new List<Ticket>();
+          
+                if (isAdmin)
+            {
+                
+                    tickets = await _context.Tickets
+               .Include(t => t.Client)
+               .Include(t => t.TicketDetails)
+               .ThenInclude(td => td.Offre)                
+               .ToListAsync();
+               
+            }
+            else
+            {                
+                    tickets = await _context.Tickets
+                    .Where(e => e.Client.Id == currentUser.Id)
+                   .Include(t => t.Client)
+                   .Include(t => t.TicketDetails)
+                   .ThenInclude(td => td.Offre)                   
+                   .ToListAsync();               
+            }
 
             ViewBag.TotalVentes = tickets.Count();
             ViewBag.MontantTotal = tickets.Sum(t => t.Prix );
 
-            return View(await _context.Tickets.ToListAsync());
+            return View(tickets);
         }
 
         // GET: Tickets/Details/5
@@ -177,5 +203,7 @@ namespace TicketsJO.Controllers
         {
             return _context.Tickets.Any(e => e.Id == id);
         }
+
+        
     }
 }

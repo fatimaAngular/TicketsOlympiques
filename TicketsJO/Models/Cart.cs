@@ -10,8 +10,11 @@ namespace TicketsJO.Models
     {
         [Key]
         public int RecordId { get; set; }
+
+        [Display (Name="Nombre")]
         public int Quantity { get; set; }
         public double Prix { get; set; }
+        [Display(Name = "Date création")]
         public System.DateTime DateCreated { get; set; }
         public virtual Offre? Offre { get; set; }
         public User? Client { get; set; }
